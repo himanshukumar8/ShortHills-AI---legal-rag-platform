@@ -1,21 +1,158 @@
 {
     "trace": {
-        "query": "Explain depreciation under MACRS.",
+        "query": "Taxation rules for independent contractors under IRS Section 162",
         "metadata": {
-            "total_latency_s": 0.015,
+            "total_latency_s": 0.016,
             "es_latency_s": 0.0,
             "qdrant_latency_s": 0.0,
             "fusion_latency_s": 0.0,
-            "embedding_latency_s": 0.015,
+            "embedding_latency_s": 0.016,
             "candidates": {
-                "elasticsearch": 0,
+                "elasticsearch": 8,
                 "qdrant": 0,
                 "fusion_parameters": {
                     "rrf_k": 60
                 }
             }
         },
-        "results": []
+        "results": [
+            {
+                "chunk_id": "mock-chunk-tax-001",
+                "document_id": "",
+                "document_title": "",
+                "category": "Tax Law",
+                "citation": "26 U.S.C. \u00a7 162",
+                "pages": [
+                    1,
+                    3
+                ],
+                "retrieval_metadata": {
+                    "source": "elasticsearch",
+                    "rrf_score": 0.0164,
+                    "bm25_rank": 1,
+                    "vector_rank": null
+                }
+            },
+            {
+                "chunk_id": "mock-chunk-tax-002",
+                "document_id": "",
+                "document_title": "",
+                "category": "Tax Law",
+                "citation": "26 U.S.C. \u00a7 1",
+                "pages": [
+                    1,
+                    2
+                ],
+                "retrieval_metadata": {
+                    "source": "elasticsearch",
+                    "rrf_score": 0.0161,
+                    "bm25_rank": 2,
+                    "vector_rank": null
+                }
+            },
+            {
+                "chunk_id": "mock-chunk-const-001",
+                "document_id": "",
+                "document_title": "",
+                "category": "Constitutional Law",
+                "citation": "U.S. Const. amend. I",
+                "pages": [
+                    10,
+                    10
+                ],
+                "retrieval_metadata": {
+                    "source": "elasticsearch",
+                    "rrf_score": 0.0159,
+                    "bm25_rank": 3,
+                    "vector_rank": null
+                }
+            },
+            {
+                "chunk_id": "mock-chunk-const-002",
+                "document_id": "",
+                "document_title": "",
+                "category": "Constitutional Law",
+                "citation": "U.S. Const. amend. XIV, \u00a7 1",
+                "pages": [
+                    15,
+                    16
+                ],
+                "retrieval_metadata": {
+                    "source": "elasticsearch",
+                    "rrf_score": 0.0156,
+                    "bm25_rank": 4,
+                    "vector_rank": null
+                }
+            },
+            {
+                "chunk_id": "mock-chunk-contract-001",
+                "document_id": "",
+                "document_title": "",
+                "category": "Contract Law",
+                "citation": "UCC \u00a7 2-204",
+                "pages": [
+                    20,
+                    22
+                ],
+                "retrieval_metadata": {
+                    "source": "elasticsearch",
+                    "rrf_score": 0.0154,
+                    "bm25_rank": 5,
+                    "vector_rank": null
+                }
+            },
+            {
+                "chunk_id": "mock-chunk-env-001",
+                "document_id": "",
+                "document_title": "",
+                "category": "Environmental Law",
+                "citation": "42 U.S.C. \u00a7 7401",
+                "pages": [
+                    1,
+                    4
+                ],
+                "retrieval_metadata": {
+                    "source": "elasticsearch",
+                    "rrf_score": 0.0152,
+                    "bm25_rank": 6,
+                    "vector_rank": null
+                }
+            },
+            {
+                "chunk_id": "mock-chunk-crim-001",
+                "document_id": "",
+                "document_title": "",
+                "category": "Criminal Law",
+                "citation": "18 U.S.C. \u00a7 1341",
+                "pages": [
+                    5,
+                    7
+                ],
+                "retrieval_metadata": {
+                    "source": "elasticsearch",
+                    "rrf_score": 0.0149,
+                    "bm25_rank": 7,
+                    "vector_rank": null
+                }
+            },
+            {
+                "chunk_id": "mock-chunk-emp-001",
+                "document_id": "",
+                "document_title": "",
+                "category": "Employment Law",
+                "citation": "29 U.S.C. \u00a7 201",
+                "pages": [
+                    1,
+                    3
+                ],
+                "retrieval_metadata": {
+                    "source": "elasticsearch",
+                    "rrf_score": 0.0147,
+                    "bm25_rank": 8,
+                    "vector_rank": null
+                }
+            }
+        ]
     },
     "validation": {
         "is_valid": true,

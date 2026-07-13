@@ -1,1 +1,9 @@
 chunk_id,document_id,category,citation,source,rrf_score,bm25_rank,vector_rank
+mock-chunk-tax-001,,Tax Law,26 U.S.C. § 162,elasticsearch,0.0164,1,
+mock-chunk-tax-002,,Tax Law,26 U.S.C. § 1,elasticsearch,0.0161,2,
+mock-chunk-const-001,,Constitutional Law,U.S. Const. amend. I,elasticsearch,0.0159,3,
+mock-chunk-const-002,,Constitutional Law,"U.S. Const. amend. XIV, § 1",elasticsearch,0.0156,4,
+mock-chunk-contract-001,,Contract Law,UCC § 2-204,elasticsearch,0.0154,5,
+mock-chunk-env-001,,Environmental Law,42 U.S.C. § 7401,elasticsearch,0.0152,6,
+mock-chunk-crim-001,,Criminal Law,18 U.S.C. § 1341,elasticsearch,0.0149,7,
+mock-chunk-emp-001,,Employment Law,29 U.S.C. § 201,elasticsearch,0.0147,8,

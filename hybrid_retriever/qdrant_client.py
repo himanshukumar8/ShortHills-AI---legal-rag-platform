@@ -9,10 +9,13 @@ from hybrid_retriever.config import HybridConfig
 logger = logging.getLogger(__name__)
 
 class QdrantRetriever:
-    def __init__(self, config: HybridConfig):
-        qd_config = QdrantConfig()
-        qd_config.use_mock = config.use_mock
-        self.client: BaseQdrantClient = get_qdrant_client(qd_config)
+    def __init__(self, config: HybridConfig, client: BaseQdrantClient | None = None):
+        if client is not None:
+            self.client: BaseQdrantClient = client
+        else:
+            qd_config = QdrantConfig()
+            qd_config.use_mock = config.use_mock
+            self.client = get_qdrant_client(qd_config)
         self.collection_name = config.qdrant_collection_name
         self.top_k = config.top_k
         
