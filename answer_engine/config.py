@@ -22,7 +22,7 @@ class AnswerEngineConfig(BaseSettings):
     strict_validation: bool = True
     
     # LLM settings
-    llm_provider: str = "mock" # "mock", "openai", "gemini"
-    llm_model: str = "gpt-4-turbo"
+    llm_provider: str = "gemini"
+    llm_model: str = "gemini-3.5-flash"
     llm_temperature: float = 0.0
     llm_max_tokens: int = 1500
