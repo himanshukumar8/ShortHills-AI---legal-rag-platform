@@ -1,0 +1,28 @@
+# Git
+.git
+.gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Development
+.vscode/
+.idea/
+.env
+
+# Data and Artifacts
+data/raw/
+data/archives/
+tests/
+reports/charts/
+
+# OS generated files
+.DS_Store
+Thumbs.db

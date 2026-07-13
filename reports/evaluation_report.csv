@@ -1,0 +1,101 @@
+QueryID,Category,Success,Top1,Top5,MRR,Faithfulness,CitationAcc,LatencyMs,ErrorCategory
+Q-ACT-001,Acts / Statutes,True,0,0,1.0,0.5,1.0,102.63495445251465,Wrong Retrieval
+Q-ACT-002,Acts / Statutes,True,0,0,1.0,0.5,1.0,111.02538108825684,Wrong Retrieval
+Q-ACT-003,Acts / Statutes,True,0,0,1.0,0.5,1.0,108.58516693115234,Wrong Retrieval
+Q-ACT-004,Acts / Statutes,True,0,0,1.0,0.5,1.0,100.7349967956543,Wrong Retrieval
+Q-ACT-005,Acts / Statutes,True,0,0,1.0,0.5,1.0,110.70494651794434,Wrong Retrieval
+Q-ACT-006,Acts / Statutes,True,0,0,1.0,0.5,1.0,102.13093757629395,Wrong Retrieval
+Q-ACT-007,Acts / Statutes,True,0,0,1.0,0.5,1.0,104.25000190734863,Wrong Retrieval
+Q-ACT-008,Acts / Statutes,True,0,0,1.0,0.5,1.0,104.59427833557129,Wrong Retrieval
+Q-ACT-009,Acts / Statutes,True,0,0,1.0,0.5,1.0,103.92718315124512,Wrong Retrieval
+Q-ACT-010,Acts / Statutes,True,0,0,1.0,0.5,1.0,104.7170639038086,Wrong Retrieval
+Q-ACT-011,Acts / Statutes,True,0,0,1.0,0.5,1.0,103.54094505310059,Wrong Retrieval
+Q-ACT-012,Acts / Statutes,True,0,0,1.0,0.5,1.0,104.99076843261719,Wrong Retrieval
+Q-ACT-013,Acts / Statutes,True,0,0,1.0,0.5,1.0,118.10379028320312,Wrong Retrieval
+Q-ACT-014,Acts / Statutes,True,0,0,1.0,0.5,1.0,102.44255065917969,Wrong Retrieval
+Q-ACT-015,Acts / Statutes,True,0,0,1.0,0.5,1.0,113.96913528442383,Wrong Retrieval
+Q-ACT-016,Acts / Statutes,True,0,0,1.0,0.5,1.0,113.08388710021973,Wrong Retrieval
+Q-ACT-017,Acts / Statutes,True,0,0,1.0,0.5,1.0,113.45295906066895,Wrong Retrieval
+Q-ACT-018,Acts / Statutes,True,0,0,1.0,0.5,1.0,113.26508522033691,Wrong Retrieval
+Q-ACT-019,Acts / Statutes,True,0,0,1.0,0.5,1.0,113.81487846374512,Wrong Retrieval
+Q-ACT-020,Acts / Statutes,True,0,0,1.0,0.5,1.0,113.99035453796387,Wrong Retrieval
+Q-COU-001,Court Judgments,True,0,0,1.0,0.5,1.0,113.5223388671875,Wrong Retrieval
+Q-COU-002,Court Judgments,True,0,0,1.0,0.5,1.0,112.77036666870117,Wrong Retrieval
+Q-COU-003,Court Judgments,True,0,0,1.0,0.5,1.0,115.23370742797852,Wrong Retrieval
+Q-COU-004,Court Judgments,True,0,0,1.0,0.5,1.0,103.21455001831055,Wrong Retrieval
+Q-COU-005,Court Judgments,True,0,0,1.0,0.5,1.0,113.2779598236084,Wrong Retrieval
+Q-COU-006,Court Judgments,True,0,0,1.0,0.5,1.0,114.22162055969238,Wrong Retrieval
+Q-COU-007,Court Judgments,True,0,0,1.0,0.5,1.0,110.51206588745117,Wrong Retrieval
+Q-COU-008,Court Judgments,True,0,0,1.0,0.5,1.0,102.60443687438965,Wrong Retrieval
+Q-COU-009,Court Judgments,True,0,0,1.0,0.5,1.0,105.90653419494629,Wrong Retrieval
+Q-COU-010,Court Judgments,True,0,0,1.0,0.5,1.0,102.49214172363281,Wrong Retrieval
+Q-COU-011,Court Judgments,True,0,0,1.0,0.5,1.0,105.06658554077148,Wrong Retrieval
+Q-COU-012,Court Judgments,True,0,0,1.0,0.5,1.0,104.28552627563477,Wrong Retrieval
+Q-COU-013,Court Judgments,True,0,0,1.0,0.5,1.0,105.4349422454834,Wrong Retrieval
+Q-COU-014,Court Judgments,True,0,0,1.0,0.5,1.0,116.5132999420166,Wrong Retrieval
+Q-COU-015,Court Judgments,True,0,0,1.0,0.5,1.0,105.80520629882812,Wrong Retrieval
+Q-COU-016,Court Judgments,True,0,0,1.0,0.5,1.0,102.68454551696777,Wrong Retrieval
+Q-COU-017,Court Judgments,True,0,0,1.0,0.5,1.0,105.06658554077148,Wrong Retrieval
+Q-COU-018,Court Judgments,True,0,0,1.0,0.5,1.0,105.74512481689453,Wrong Retrieval
+Q-COU-019,Court Judgments,True,0,0,1.0,0.5,1.0,105.81974983215332,Wrong Retrieval
+Q-COU-020,Court Judgments,True,0,0,1.0,0.5,1.0,109.23914909362793,Wrong Retrieval
+Q-IRS-001,IRS Publications,True,0,0,1.0,0.5,1.0,101.53870582580566,Wrong Retrieval
+Q-IRS-002,IRS Publications,True,0,0,1.0,0.5,1.0,114.44406509399414,Wrong Retrieval
+Q-IRS-003,IRS Publications,True,0,0,1.0,0.5,1.0,112.1347427368164,Wrong Retrieval
+Q-IRS-004,IRS Publications,True,0,0,1.0,0.5,1.0,103.6339282989502,Wrong Retrieval
+Q-IRS-005,IRS Publications,True,0,0,1.0,0.5,1.0,102.40368843078613,Wrong Retrieval
+Q-IRS-006,IRS Publications,True,0,0,1.0,0.5,1.0,101.41830444335938,Wrong Retrieval
+Q-IRS-007,IRS Publications,True,0,0,1.0,0.5,1.0,106.29730224609375,Wrong Retrieval
+Q-IRS-008,IRS Publications,True,0,0,1.0,0.5,1.0,103.20954322814941,Wrong Retrieval
+Q-IRS-009,IRS Publications,True,0,0,1.0,0.5,1.0,110.22191047668457,Wrong Retrieval
+Q-IRS-010,IRS Publications,True,0,0,1.0,0.5,1.0,104.82721328735352,Wrong Retrieval
+Q-IRS-011,IRS Publications,True,0,0,1.0,0.5,1.0,104.38780784606934,Wrong Retrieval
+Q-IRS-012,IRS Publications,True,0,0,1.0,0.5,1.0,107.09505081176758,Wrong Retrieval
+Q-IRS-013,IRS Publications,True,0,0,1.0,0.5,1.0,101.62191390991211,Wrong Retrieval
+Q-IRS-014,IRS Publications,True,0,0,1.0,0.5,1.0,106.1525821685791,Wrong Retrieval
+Q-IRS-015,IRS Publications,True,0,0,1.0,0.5,1.0,103.90405654907227,Wrong Retrieval
+Q-IRS-016,IRS Publications,True,0,0,1.0,0.5,1.0,102.80375480651855,Wrong Retrieval
+Q-IRS-017,IRS Publications,True,0,0,1.0,0.5,1.0,108.7160587310791,Wrong Retrieval
+Q-IRS-018,IRS Publications,True,0,0,1.0,0.5,1.0,110.40501594543457,Wrong Retrieval
+Q-IRS-019,IRS Publications,True,0,0,1.0,0.5,1.0,114.61977958679199,Wrong Retrieval
+Q-IRS-020,IRS Publications,True,0,0,1.0,0.5,1.0,108.30574035644531,Wrong Retrieval
+Q-TRE-001,Treasury Regulations,True,0,0,1.0,0.5,1.0,112.1798038482666,Wrong Retrieval
+Q-TRE-002,Treasury Regulations,True,0,0,1.0,0.5,1.0,107.83724784851074,Wrong Retrieval
+Q-TRE-003,Treasury Regulations,True,0,0,1.0,0.5,1.0,106.09488487243652,Wrong Retrieval
+Q-TRE-004,Treasury Regulations,True,0,0,1.0,0.5,1.0,106.75482749938965,Wrong Retrieval
+Q-TRE-005,Treasury Regulations,True,0,0,1.0,0.5,1.0,104.90589141845703,Wrong Retrieval
+Q-TRE-006,Treasury Regulations,True,0,0,1.0,0.5,1.0,104.0611743927002,Wrong Retrieval
+Q-TRE-007,Treasury Regulations,True,0,0,1.0,0.5,1.0,103.50446701049805,Wrong Retrieval
+Q-TRE-008,Treasury Regulations,True,0,0,1.0,0.5,1.0,102.38842964172363,Wrong Retrieval
+Q-TRE-009,Treasury Regulations,True,0,0,1.0,0.5,1.0,105.41467666625977,Wrong Retrieval
+Q-TRE-010,Treasury Regulations,True,0,0,1.0,0.5,1.0,105.24826049804688,Wrong Retrieval
+Q-TRE-011,Treasury Regulations,True,0,0,1.0,0.5,1.0,106.40482902526855,Wrong Retrieval
+Q-TRE-012,Treasury Regulations,True,0,0,1.0,0.5,1.0,105.60135841369629,Wrong Retrieval
+Q-TRE-013,Treasury Regulations,True,0,0,1.0,0.5,1.0,107.37137794494629,Wrong Retrieval
+Q-TRE-014,Treasury Regulations,True,0,0,1.0,0.5,1.0,105.66692352294922,Wrong Retrieval
+Q-TRE-015,Treasury Regulations,True,0,0,1.0,0.5,1.0,104.02469635009766,Wrong Retrieval
+Q-TRE-016,Treasury Regulations,True,0,0,1.0,0.5,1.0,106.34355545043945,Wrong Retrieval
+Q-TRE-017,Treasury Regulations,True,0,0,1.0,0.5,1.0,105.60541152954102,Wrong Retrieval
+Q-TRE-018,Treasury Regulations,True,0,0,1.0,0.5,1.0,102.78992652893066,Wrong Retrieval
+Q-TRE-019,Treasury Regulations,True,0,0,1.0,0.5,1.0,114.23425674438477,Wrong Retrieval
+Q-TRE-020,Treasury Regulations,True,0,0,1.0,0.5,1.0,106.1835765838623,Wrong Retrieval
+Q-LEG-001,Legal Commentary,True,0,0,1.0,0.5,1.0,107.19232559204102,Wrong Retrieval
+Q-LEG-002,Legal Commentary,True,0,0,1.0,0.5,1.0,103.05004119873047,Wrong Retrieval
+Q-LEG-003,Legal Commentary,True,0,0,1.0,0.5,1.0,104.43763732910156,Wrong Retrieval
+Q-LEG-004,Legal Commentary,True,0,0,1.0,0.5,1.0,103.01880836486816,Wrong Retrieval
+Q-LEG-005,Legal Commentary,True,0,0,1.0,0.5,1.0,103.17091941833496,Wrong Retrieval
+Q-LEG-006,Legal Commentary,True,0,0,1.0,0.5,1.0,113.83419036865234,Wrong Retrieval
+Q-LEG-007,Legal Commentary,True,0,0,1.0,0.5,1.0,100.52304267883301,Wrong Retrieval
+Q-LEG-008,Legal Commentary,True,0,0,1.0,0.5,1.0,103.27796936035156,Wrong Retrieval
+Q-LEG-009,Legal Commentary,True,0,0,1.0,0.5,1.0,101.06806755065918,Wrong Retrieval
+Q-LEG-010,Legal Commentary,True,0,0,1.0,0.5,1.0,105.60493469238281,Wrong Retrieval
+Q-LEG-011,Legal Commentary,True,0,0,1.0,0.5,1.0,103.87377738952637,Wrong Retrieval
+Q-LEG-012,Legal Commentary,True,0,0,1.0,0.5,1.0,105.55319786071777,Wrong Retrieval
+Q-LEG-013,Legal Commentary,True,0,0,1.0,0.5,1.0,105.53054809570312,Wrong Retrieval
+Q-LEG-014,Legal Commentary,True,0,0,1.0,0.5,1.0,104.32534217834473,Wrong Retrieval
+Q-LEG-015,Legal Commentary,True,0,0,1.0,0.5,1.0,103.87043952941895,Wrong Retrieval
+Q-LEG-016,Legal Commentary,True,0,0,1.0,0.5,1.0,110.24336814880371,Wrong Retrieval
+Q-LEG-017,Legal Commentary,True,0,0,1.0,0.5,1.0,114.08834457397461,Wrong Retrieval
+Q-LEG-018,Legal Commentary,True,0,0,1.0,0.5,1.0,100.85372924804688,Wrong Retrieval
+Q-LEG-019,Legal Commentary,True,0,0,1.0,0.5,1.0,105.81426620483398,Wrong Retrieval
+Q-LEG-020,Legal Commentary,True,0,0,1.0,0.5,1.0,102.25920677185059,Wrong Retrieval

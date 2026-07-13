@@ -1,0 +1,65 @@
+{
+    "health": {
+        "status_code": 200,
+        "json": {
+            "status": "healthy",
+            "version": "1.0.0"
+        }
+    },
+    "metrics_initial": {
+        "status_code": 200,
+        "json": {
+            "total_requests": 1,
+            "error_rate": 0.0,
+            "average_latency_s": 0.008653640747070312
+        }
+    },
+    "query": {
+        "status_code": 200,
+        "json": {
+            "answer": "Under IRS Section 162, independent contractors may deduct ordinary and necessary business expenses.",
+            "citations": [
+                {
+                    "document": "Internal Revenue Code",
+                    "page": 1,
+                    "section": "162(a)",
+                    "status": "FAILED",
+                    "confidence": 0.0,
+                    "message": "Document not found in retrieved chunks."
+                }
+            ],
+            "confidence": "HIGH",
+            "limitations": "The provided context does not cover state-specific tax laws.",
+            "retrieval_trace": {
+                "query": "What are the rules for independent contractors?",
+                "metadata": {
+                    "total_latency_s": 0.015,
+                    "es_latency_s": 0.0,
+                    "qdrant_latency_s": 0.0,
+                    "fusion_latency_s": 0.0,
+                    "embedding_latency_s": 0.015,
+                    "candidates": {
+                        "elasticsearch": 0,
+                        "qdrant": 0,
+                        "fusion_parameters": {
+                            "rrf_k": 60
+                        }
+                    }
+                },
+                "results": []
+            }
+        }
+    },
+    "evaluate": {
+        "status_code": 200,
+        "json": "Evaluation successful"
+    },
+    "metrics_final": {
+        "status_code": 200,
+        "json": {
+            "total_requests": 4,
+            "error_rate": 0.0,
+            "average_latency_s": 6.828766763210297
+        }
+    }
+}

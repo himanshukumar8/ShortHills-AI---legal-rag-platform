@@ -1,0 +1,7 @@
+Issue Type,Count,Sample IDs (up to 5)
+Empty Chunks,0,
+Tiny Chunks (<20t),0,
+Oversized Chunks (>2000t),0,
+Missing Citations,0,
+Missing Page Refs,0,
+Orphan Chunks,0,

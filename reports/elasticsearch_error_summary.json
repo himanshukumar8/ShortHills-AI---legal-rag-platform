@@ -1,0 +1,92 @@
+{
+    "total_failures_analyzed": 60,
+    "categories": [
+        {
+            "category": "Analyzer/tokenization issue",
+            "count": 16,
+            "percentage": 26.67,
+            "representative_examples": [
+                "Q_PHR_2",
+                "Q_PHR_4",
+                "Q_PHR_7"
+            ],
+            "recommended_fix": "Expand the `legal_english_analyzer` with a synonym graph (e.g., 'U.S.C.' == 'United States Code') and fuzzy matching for OCR errors."
+        },
+        {
+            "category": "Query generation issue",
+            "count": 12,
+            "percentage": 20.0,
+            "representative_examples": [
+                "Q_PHR_0",
+                "Q_PHR_1",
+                "Q_PHR_3"
+            ],
+            "recommended_fix": "The automated QA sampled stopwords or generic terms. Refine the query generator to extract higher TF-IDF terms."
+        },
+        {
+            "category": "Genuine retrieval failure",
+            "count": 12,
+            "percentage": 20.0,
+            "representative_examples": [
+                "Q_PHR_5",
+                "Q_PHR_6",
+                "Q_PHR_9"
+            ],
+            "recommended_fix": "Rely on dense vector embeddings (Qdrant) to capture semantic meaning where lexical overlap fails."
+        },
+        {
+            "category": "Metadata filtering issue",
+            "count": 8,
+            "percentage": 13.33,
+            "representative_examples": [
+                "Q_META_0",
+                "Q_META_2",
+                "Q_META_3"
+            ],
+            "recommended_fix": "Ensure boolean `filter` contexts are correctly applying exact-match `keyword` types rather than analyzed text types."
+        },
+        {
+            "category": "Wrong benchmark expectation",
+            "count": 7,
+            "percentage": 11.67,
+            "representative_examples": [
+                "Q_META_1",
+                "Q_META_6",
+                "Q_META_10"
+            ],
+            "recommended_fix": "Review synthetic query generator logic; some sampled queries may be structurally impossible to retrieve."
+        },
+        {
+            "category": "Correct document but wrong chunk",
+            "count": 5,
+            "percentage": 8.33,
+            "representative_examples": [
+                "Q_META_5",
+                "Q_META_7",
+                "Q_META_16"
+            ],
+            "recommended_fix": "Implement chunk-coalescing (merging smaller chunks) or windowed-retrieval to group adjacent sections."
+        },
+        {
+            "category": "Correct section but lower rank",
+            "count": 0,
+            "percentage": 0.0,
+            "representative_examples": [],
+            "recommended_fix": "Tune BM25 parameters (k1, b) or apply Reciprocal Rank Fusion with dense vectors to boost section ranking."
+        },
+        {
+            "category": "Citation parsing issue",
+            "count": 0,
+            "percentage": 0.0,
+            "representative_examples": [],
+            "recommended_fix": "Implement a specialized regex tokenizer or NER step during normalization to extract complex multi-part citations accurately."
+        },
+        {
+            "category": "Chunking issue",
+            "count": 0,
+            "percentage": 0.0,
+            "representative_examples": [],
+            "recommended_fix": "Adjust the Semantic Chunker to prevent splitting lists or paragraphs that separate citations from their context."
+        }
+    ]
+}

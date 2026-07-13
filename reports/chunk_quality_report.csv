@@ -1,0 +1,7 @@
+Issue Type,Count,Sample IDs (up to 5)
+Empty Chunks,0,
+Tiny Chunks (<20t),18665,"ACT-02_CHUNK-0004, ACT-02_CHUNK-0005, ACT-02_CHUNK-0006, ACT-02_CHUNK-0007, ACT-02_CHUNK-0008"
+Oversized Chunks (>2000t),1271,"ACT-01_CHUNK-0002, ACT-01_CHUNK-0003, ACT-01_CHUNK-0004, ACT-01_CHUNK-0013, ACT-01_CHUNK-0016"
+Missing Citations,0,
+Missing Page Refs,0,
+Orphan Chunks,0,

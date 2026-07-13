@@ -1,0 +1,43 @@
+{
+    "quality_score": 66,
+    "score_deductions": [
+        "-10 for oversized chunks (>2000 tokens)",
+        "-20 for tiny chunks (<20 tokens)",
+        "-4 for duplicate hashes"
+    ],
+    "recommended_improvements": [
+        "Refine regex boundary in chunk_builder.py to prevent oversized chunks (e.g., implement a recursive sub-splitter for sections > 2000 tokens).",
+        "Implement chunk merging (coalescing) to combine tiny chunks (<20 tokens) with their previous sibling to preserve LLM context."
+    ],
+    "global_metrics": {
+        "total_chunks": 62719,
+        "total_documents": 100,
+        "total_categories": 5
+    },
+    "token_distribution": {
+        "average": 343.36,
+        "median": 93,
+        "min": 1,
+        "max": 33384,
+        "p25": 13,
+        "p75": 406,
+        "p90": 1029,
+        "p99": 2704
+    },
+    "quality_issues": {
+        "empty_chunks": 0,
+        "tiny_chunks": 18665,
+        "oversized_chunks": 1271,
+        "duplicate_hashes": 2623,
+        "missing_citations": 0,
+        "missing_page_references": 0,
+        "orphan_chunks": 0
+    },
+    "category_breakdown": {
+        "Acts / Statutes": 17871,
+        "Court Judgments": 38,
+        "IRS Publications": 10078,
+        "Legal Commentary": 617,
+        "Treasury Regs": 34115
+    }
+}

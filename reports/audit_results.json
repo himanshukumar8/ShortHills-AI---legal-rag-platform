@@ -1,0 +1,17 @@
+{
+    "total_documents": 100,
+    "downloaded": 100,
+    "failed": 0,
+    "skipped": 0,
+    "duplicates": 0,
+    "categories": {
+        "Acts / Statutes": 20,
+        "Court Judgments": 25,
+        "IRS Publications": 25,
+        "Treasury Regs": 15,
+        "Legal Commentary": 15
+    },
+    "failures": [],
+    "orphans": [],
+    "valid_pdfs": 100
+}

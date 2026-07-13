@@ -1,0 +1,1502 @@
+[
+    {
+        "query_id": "Q-ACT-001",
+        "user_query": "According to UNKNOWN, what are the specific rules mentioned on page 1? [Context: ACT-16_CHUNK-0788_SUB-1_SUB-5]",
+        "category": "Acts / Statutes",
+        "expected_document": "UNKNOWN",
+        "expected_document_id": "UNKNOWN",
+        "expected_citation": "Acts / Statutes Citation",
+        "expected_section": "General Section",
+        "expected_page_number": 1,
+        "expected_answer": "The expected answer is directly supported by the text in chunk ACT-16_CHUNK-0788_SUB-1_SUB-5 from UNKNOWN.",
+        "supporting_chunk_ids": [
+            "ACT-16_CHUNK-0788_SUB-1_SUB-5"
+        ],
+        "difficulty": "Medium"
+    },
+    {
+        "query_id": "Q-ACT-002",
+        "user_query": "According to UNKNOWN, what are the specific rules mentioned on page 1? [Context: ACT-07_CHUNK-4006]",
+        "category": "Acts / Statutes",
+        "expected_document": "UNKNOWN",
+        "expected_document_id": "UNKNOWN",
+        "expected_citation": "Acts / Statutes Citation",
+        "expected_section": "General Section",
+        "expected_page_number": 1,
+        "expected_answer": "The expected answer is directly supported by the text in chunk ACT-07_CHUNK-4006 from UNKNOWN.",
+        "supporting_chunk_ids": [
+            "ACT-07_CHUNK-4006"
+        ],
+        "difficulty": "Hard"
+    },
+    {
+        "query_id": "Q-ACT-003",
+        "user_query": "Can you summarize the legal concept discussed in Acts / Statutes Citation? [Context: ACT-02_CHUNK-0473]",
+        "category": "Acts / Statutes",
+        "expected_document": "UNKNOWN",
+        "expected_document_id": "UNKNOWN",
+        "expected_citation": "Acts / Statutes Citation",
+        "expected_section": "General Section",
+        "expected_page_number": 1,
+        "expected_answer": "The expected answer is directly supported by the text in chunk ACT-02_CHUNK-0473 from UNKNOWN.",
+        "supporting_chunk_ids": [
+            "ACT-02_CHUNK-0473"
+        ],
+        "difficulty": "Easy"
+    },
+    {
+        "query_id": "Q-ACT-004",
+        "user_query": "Can you summarize the legal concept discussed in Acts / Statutes Citation? [Context: ACT-07_CHUNK-4087]",
+        "category": "Acts / Statutes",
+        "expected_document": "UNKNOWN",
+        "expected_document_id": "UNKNOWN",
+        "expected_citation": "Acts / Statutes Citation",
+        "expected_section": "General Section",
+        "expected_page_number": 1,
+        "expected_answer": "The expected answer is directly supported by the text in chunk ACT-07_CHUNK-4087 from UNKNOWN.",
+        "supporting_chunk_ids": [
+            "ACT-07_CHUNK-4087"
+        ],
+        "difficulty": "Medium"
+    },
+    {
+        "query_id": "Q-ACT-005",
+        "user_query": "According to UNKNOWN, what are the specific rules mentioned on page 1? [Context: ACT-09_CHUNK-0361_SUB-1_SUB-23]",
+        "category": "Acts / Statutes",
+        "expected_document": "UNKNOWN",
+        "expected_document_id": "UNKNOWN",
+        "expected_citation": "Acts / Statutes Citation",
+        "expected_section": "General Section",
+        "expected_page_number": 1,
+        "expected_answer": "The expected answer is directly supported by the text in chunk ACT-09_CHUNK-0361_SUB-1_SUB-23 from UNKNOWN.",
+        "supporting_chunk_ids": [
+            "ACT-09_CHUNK-0361_SUB-1_SUB-23"
+        ],
+        "difficulty": "Medium"
+    },
+    {
+        "query_id": "Q-ACT-006",
+        "user_query": "What does Acts / Statutes Citation state regarding its core provisions? [Context: ACT-16_CHUNK-0619]",
+        "category": "Acts / Statutes",
+        "expected_document": "UNKNOWN",
+        "expected_document_id": "UNKNOWN",
+        "expected_citation": "Acts / Statutes Citation",
+        "expected_section": "General Section",
+        "expected_page_number": 1,
+        "expected_answer": "The expected answer is directly supported by the text in chunk ACT-16_CHUNK-0619 from UNKNOWN.",
+        "supporting_chunk_ids": [
+            "ACT-16_CHUNK-0619"
+        ],
+        "difficulty": "Medium"
+    },
+    {
+        "query_id": "Q-ACT-007",
+        "user_query": "Can you summarize the legal concept discussed in Acts / Statutes Citation? [Context: ACT-07_CHUNK-2980_SUB-11]",
+        "category": "Acts / Statutes",
+        "expected_document": "UNKNOWN",
+        "expected_document_id": "UNKNOWN",
+        "expected_citation": "Acts / Statutes Citation",
+        "expected_section": "General Section",
+        "expected_page_number": 1,
+        "expected_answer": "The expected answer is directly supported by the text in chunk ACT-07_CHUNK-2980_SUB-11 from UNKNOWN.",
+        "supporting_chunk_ids": [
+            "ACT-07_CHUNK-2980_SUB-11"
+        ],
+        "difficulty": "Medium"
+    },
+    {
+        "query_id": "Q-ACT-008",
+        "user_query": "Can you summarize the legal concept discussed in Acts / Statutes Citation? [Context: ACT-04_CHUNK-1057_SUB-6]",
+        "category": "Acts / Statutes",
+        "expected_document": "UNKNOWN",
+        "expected_document_id": "UNKNOWN",
+        "expected_citation": "Acts / Statutes Citation",
+        "expected_section": "General Section",
+        "expected_page_number": 1,
+        "expected_answer": "The expected answer is directly supported by the text in chunk ACT-04_CHUNK-1057_SUB-6 from UNKNOWN.",
+        "supporting_chunk_ids": [
+            "ACT-04_CHUNK-1057_SUB-6"
+        ],
+        "difficulty": "Medium"
+    },
+    {
+        "query_id": "Q-ACT-009",
+        "user_query": "What is the definition of the term described in General Section? [Context: ACT-09_CHUNK-0932_SUB-3]",
+        "category": "Acts / Statutes",
+        "expected_document": "UNKNOWN",
+        "expected_document_id": "UNKNOWN",
+        "expected_citation": "Acts / Statutes Citation",
+        "expected_section": "General Section",
+        "expected_page_number": 1,
+        "expected_answer": "The expected answer is directly supported by the text in chunk ACT-09_CHUNK-0932_SUB-3 from UNKNOWN.",
+        "supporting_chunk_ids": [
+            "ACT-09_CHUNK-0932_SUB-3"
+        ],
+        "difficulty": "Medium"
+    },
+    {
+        "query_id": "Q-ACT-010",
+        "user_query": "According to UNKNOWN, what are the specific rules mentioned on page 1? [Context: ACT-13_CHUNK-0457_SUB-2_SUB-1]",
+        "category": "Acts / Statutes",
+        "expected_document": "UNKNOWN",
+        "expected_document_id": "UNKNOWN",
+        "expected_citation": "Acts / Statutes Citation",
+        "expected_section": "General Section",
+        "expected_page_number": 1,
+        "expected_answer": "The expected answer is directly supported by the text in chunk ACT-13_CHUNK-0457_SUB-2_SUB-1 from UNKNOWN.",
+        "supporting_chunk_ids": [
+            "ACT-13_CHUNK-0457_SUB-2_SUB-1"
+        ],
+        "difficulty": "Easy"
+    },
+    {
+        "query_id": "Q-ACT-011",
+        "user_query": "Explain the requirements found in General Section of UNKNOWN. [Context: ACT-16_CHUNK-0599_SUB-2_SUB-9_SUB-31]",
+        "category": "Acts / Statutes",
+        "expected_document": "UNKNOWN",
+        "expected_document_id": "UNKNOWN",
+        "expected_citation": "Acts / Statutes Citation",
+        "expected_section": "General Section",
+        "expected_page_number": 1,
+        "expected_answer": "The expected answer is directly supported by the text in chunk ACT-16_CHUNK-0599_SUB-2_SUB-9_SUB-31 from UNKNOWN.",
+        "supporting_chunk_ids": [
+            "ACT-16_CHUNK-0599_SUB-2_SUB-9_SUB-31"
+        ],
+        "difficulty": "Medium"
+    },
+    {
+        "query_id": "Q-ACT-012",
+        "user_query": "What does Acts / Statutes Citation state regarding its core provisions? [Context: ACT-07_CHUNK-0320]",
+        "category": "Acts / Statutes",
+        "expected_document": "UNKNOWN",
+        "expected_document_id": "UNKNOWN",
+        "expected_citation": "Acts / Statutes Citation",
+        "expected_section": "General Section",
+        "expected_page_number": 1,
+        "expected_answer": "The expected answer is directly supported by the text in chunk ACT-07_CHUNK-0320 from UNKNOWN.",
+        "supporting_chunk_ids": [
+            "ACT-07_CHUNK-0320"
+        ],
+        "difficulty": "Medium"
+    },
+    {
+        "query_id": "Q-ACT-013",
+        "user_query": "What does Acts / Statutes Citation state regarding its core provisions? [Context: ACT-07_CHUNK-5934_SUB-1]",
+        "category": "Acts / Statutes",
+        "expected_document": "UNKNOWN",
+        "expected_document_id": "UNKNOWN",
+        "expected_citation": "Acts / Statutes Citation",
+        "expected_section": "General Section",
+        "expected_page_number": 1,
+        "expected_answer": "The expected answer is directly supported by the text in chunk ACT-07_CHUNK-5934_SUB-1 from UNKNOWN.",
+        "supporting_chunk_ids": [
+            "ACT-07_CHUNK-5934_SUB-1"
+        ],
+        "difficulty": "Medium"
+    },
+    {
+        "query_id": "Q-ACT-014",
+        "user_query": "What is the definition of the term described in General Section? [Context: ACT-03_CHUNK-0194_SUB-2_SUB-3_SUB-11]",
+        "category": "Acts / Statutes",
+        "expected_document": "UNKNOWN",
+        "expected_document_id": "UNKNOWN",
+        "expected_citation": "Acts / Statutes Citation",
+        "expected_section": "General Section",
+        "expected_page_number": 1,
+        "expected_answer": "The expected answer is directly supported by the text in chunk ACT-03_CHUNK-0194_SUB-2_SUB-3_SUB-11 from UNKNOWN.",
+        "supporting_chunk_ids": [
+            "ACT-03_CHUNK-0194_SUB-2_SUB-3_SUB-11"
+        ],
+        "difficulty": "Easy"
+    },
+    {
+        "query_id": "Q-ACT-015",
+        "user_query": "What does Acts / Statutes Citation state regarding its core provisions? [Context: ACT-07_CHUNK-4669]",
+        "category": "Acts / Statutes",
+        "expected_document": "UNKNOWN",
+        "expected_document_id": "UNKNOWN",
+        "expected_citation": "Acts / Statutes Citation",
+        "expected_section": "General Section",
+        "expected_page_number": 1,
+        "expected_answer": "The expected answer is directly supported by the text in chunk ACT-07_CHUNK-4669 from UNKNOWN.",
+        "supporting_chunk_ids": [
+            "ACT-07_CHUNK-4669"
+        ],
+        "difficulty": "Easy"
+    },
+    {
+        "query_id": "Q-ACT-016",
+        "user_query": "According to UNKNOWN, what are the specific rules mentioned on page 1? [Context: ACT-07_CHUNK-0035_SUB-35]",
+        "category": "Acts / Statutes",
+        "expected_document": "UNKNOWN",
+        "expected_document_id": "UNKNOWN",
+        "expected_citation": "Acts / Statutes Citation",
+        "expected_section": "General Section",
+        "expected_page_number": 1,
+        "expected_answer": "The expected answer is directly supported by the text in chunk ACT-07_CHUNK-0035_SUB-35 from UNKNOWN.",
+        "supporting_chunk_ids": [
+            "ACT-07_CHUNK-0035_SUB-35"
+        ],
+        "difficulty": "Easy"
+    },
+    {
+        "query_id": "Q-ACT-017",
+        "user_query": "Explain the requirements found in General Section of UNKNOWN. [Context: ACT-07_CHUNK-8265]",
+        "category": "Acts / Statutes",
+        "expected_document": "UNKNOWN",
+        "expected_document_id": "UNKNOWN",
+        "expected_citation": "Acts / Statutes Citation",
+        "expected_section": "General Section",
+        "expected_page_number": 1,
+        "expected_answer": "The expected answer is directly supported by the text in chunk ACT-07_CHUNK-8265 from UNKNOWN.",
+        "supporting_chunk_ids": [
+            "ACT-07_CHUNK-8265"
+        ],
+        "difficulty": "Medium"
+    },
+    {
+        "query_id": "Q-ACT-018",
+        "user_query": "What does Acts / Statutes Citation state regarding its core provisions? [Context: ACT-04_CHUNK-0766_SUB-5]",
+        "category": "Acts / Statutes",
+        "expected_document": "UNKNOWN",
+        "expected_document_id": "UNKNOWN",
+        "expected_citation": "Acts / Statutes Citation",
+        "expected_section": "General Section",
+        "expected_page_number": 1,
+        "expected_answer": "The expected answer is directly supported by the text in chunk ACT-04_CHUNK-0766_SUB-5 from UNKNOWN.",
+        "supporting_chunk_ids": [
+            "ACT-04_CHUNK-0766_SUB-5"
+        ],
+        "difficulty": "Hard"
+    },
+    {
+        "query_id": "Q-ACT-019",
+        "user_query": "Can you summarize the legal concept discussed in Acts / Statutes Citation? [Context: ACT-09_CHUNK-0444_SUB-5]",
+        "category": "Acts / Statutes",
+        "expected_document": "UNKNOWN",
+        "expected_document_id": "UNKNOWN",
+        "expected_citation": "Acts / Statutes Citation",
+        "expected_section": "General Section",
+        "expected_page_number": 1,
+        "expected_answer": "The expected answer is directly supported by the text in chunk ACT-09_CHUNK-0444_SUB-5 from UNKNOWN.",
+        "supporting_chunk_ids": [
+            "ACT-09_CHUNK-0444_SUB-5"
+        ],
+        "difficulty": "Medium"
+    },
+    {
+        "query_id": "Q-ACT-020",
+        "user_query": "According to UNKNOWN, what are the specific rules mentioned on page 1? [Context: ACT-07_CHUNK-5643_SUB-1]",
+        "category": "Acts / Statutes",
+        "expected_document": "UNKNOWN",
+        "expected_document_id": "UNKNOWN",
+        "expected_citation": "Acts / Statutes Citation",
+        "expected_section": "General Section",
+        "expected_page_number": 1,
+        "expected_answer": "The expected answer is directly supported by the text in chunk ACT-07_CHUNK-5643_SUB-1 from UNKNOWN.",
+        "supporting_chunk_ids": [
+            "ACT-07_CHUNK-5643_SUB-1"
+        ],
+        "difficulty": "Medium"
+    },
+    {
+        "query_id": "Q-COU-001",
+        "user_query": "What is the definition of the term described in General Section? [Context: JUDG-17_CHUNK-0002]",
+        "category": "Court Judgments",
+        "expected_document": "UNKNOWN",
+        "expected_document_id": "UNKNOWN",
+        "expected_citation": "Court Judgments Citation",
+        "expected_section": "General Section",
+        "expected_page_number": 1,
+        "expected_answer": "The expected answer is directly supported by the text in chunk JUDG-17_CHUNK-0002 from UNKNOWN.",
+        "supporting_chunk_ids": [
+            "JUDG-17_CHUNK-0002"
+        ],
+        "difficulty": "Hard"
+    },
+    {
+        "query_id": "Q-COU-002",
+        "user_query": "What is the definition of the term described in General Section? [Context: JUDG-03_CHUNK-0001_SUB-4_SUB-13]",
+        "category": "Court Judgments",
+        "expected_document": "UNKNOWN",
+        "expected_document_id": "UNKNOWN",
+        "expected_citation": "Court Judgments Citation",
+        "expected_section": "General Section",
+        "expected_page_number": 1,
+        "expected_answer": "The expected answer is directly supported by the text in chunk JUDG-03_CHUNK-0001_SUB-4_SUB-13 from UNKNOWN.",
+        "supporting_chunk_ids": [
+            "JUDG-03_CHUNK-0001_SUB-4_SUB-13"
+        ],
+        "difficulty": "Hard"
+    },
+    {
+        "query_id": "Q-COU-003",
+        "user_query": "What does Court Judgments Citation state regarding its core provisions? [Context: JUDG-20_CHUNK-0001_SUB-3_SUB-10]",
+        "category": "Court Judgments",
+        "expected_document": "UNKNOWN",
+        "expected_document_id": "UNKNOWN",
+        "expected_citation": "Court Judgments Citation",
+        "expected_section": "General Section",
+        "expected_page_number": 1,
+        "expected_answer": "The expected answer is directly supported by the text in chunk JUDG-20_CHUNK-0001_SUB-3_SUB-10 from UNKNOWN.",
+        "supporting_chunk_ids": [
+            "JUDG-20_CHUNK-0001_SUB-3_SUB-10"
+        ],
+        "difficulty": "Medium"
+    },
+    {
+        "query_id": "Q-COU-004",
+        "user_query": "What does Court Judgments Citation state regarding its core provisions? [Context: JUDG-03_CHUNK-0001_SUB-1_SUB-5_SUB-9_SUB-46]",
+        "category": "Court Judgments",
+        "expected_document": "UNKNOWN",
+        "expected_document_id": "UNKNOWN",
+        "expected_citation": "Court Judgments Citation",
+        "expected_section": "General Section",
+        "expected_page_number": 1,
+        "expected_answer": "The expected answer is directly supported by the text in chunk JUDG-03_CHUNK-0001_SUB-1_SUB-5_SUB-9_SUB-46 from UNKNOWN.",
+        "supporting_chunk_ids": [
+            "JUDG-03_CHUNK-0001_SUB-1_SUB-5_SUB-9_SUB-46"
+        ],
+        "difficulty": "Hard"
+    },
+    {
+        "query_id": "Q-COU-005",
+        "user_query": "Explain the requirements found in General Section of UNKNOWN. [Context: JUDG-09_CHUNK-0001_SUB-6_SUB-74]",
+        "category": "Court Judgments",
+        "expected_document": "UNKNOWN",
+        "expected_document_id": "UNKNOWN",
+        "expected_citation": "Court Judgments Citation",
+        "expected_section": "General Section",
+        "expected_page_number": 1,
+        "expected_answer": "The expected answer is directly supported by the text in chunk JUDG-09_CHUNK-0001_SUB-6_SUB-74 from UNKNOWN.",
+        "supporting_chunk_ids": [
+            "JUDG-09_CHUNK-0001_SUB-6_SUB-74"
+        ],
+        "difficulty": "Easy"
+    },
+    {
+        "query_id": "Q-COU-006",
+        "user_query": "Explain the requirements found in General Section of UNKNOWN. [Context: JUDG-09_CHUNK-0001_SUB-6_SUB-63]",
+        "category": "Court Judgments",
+        "expected_document": "UNKNOWN",
+        "expected_document_id": "UNKNOWN",
+        "expected_citation": "Court Judgments Citation",
+        "expected_section": "General Section",
+        "expected_page_number": 1,
+        "expected_answer": "The expected answer is directly supported by the text in chunk JUDG-09_CHUNK-0001_SUB-6_SUB-63 from UNKNOWN.",
+        "supporting_chunk_ids": [
+            "JUDG-09_CHUNK-0001_SUB-6_SUB-63"
+        ],
+        "difficulty": "Medium"
+    },
+    {
+        "query_id": "Q-COU-007",
+        "user_query": "According to UNKNOWN, what are the specific rules mentioned on page 1? [Context: JUDG-22_CHUNK-0001_SUB-5_SUB-31]",
+        "category": "Court Judgments",
+        "expected_document": "UNKNOWN",
+        "expected_document_id": "UNKNOWN",
+        "expected_citation": "Court Judgments Citation",
+        "expected_section": "General Section",
+        "expected_page_number": 1,
+        "expected_answer": "The expected answer is directly supported by the text in chunk JUDG-22_CHUNK-0001_SUB-5_SUB-31 from UNKNOWN.",
+        "supporting_chunk_ids": [
+            "JUDG-22_CHUNK-0001_SUB-5_SUB-31"
+        ],
+        "difficulty": "Easy"
+    },
+    {
+        "query_id": "Q-COU-008",
+        "user_query": "According to UNKNOWN, what are the specific rules mentioned on page 1? [Context: JUDG-17_CHUNK-0001]",
+        "category": "Court Judgments",
+        "expected_document": "UNKNOWN",
+        "expected_document_id": "UNKNOWN",
+        "expected_citation": "Court Judgments Citation",
+        "expected_section": "General Section",
+        "expected_page_number": 1,
+        "expected_answer": "The expected answer is directly supported by the text in chunk JUDG-17_CHUNK-0001 from UNKNOWN.",
+        "supporting_chunk_ids": [
+            "JUDG-17_CHUNK-0001"
+        ],
+        "difficulty": "Medium"
+    },
+    {
+        "query_id": "Q-COU-009",
+        "user_query": "Explain the requirements found in General Section of UNKNOWN. [Context: JUDG-20_CHUNK-0001_SUB-3_SUB-44]",
+        "category": "Court Judgments",
+        "expected_document": "UNKNOWN",
+        "expected_document_id": "UNKNOWN",
+        "expected_citation": "Court Judgments Citation",
+        "expected_section": "General Section",
+        "expected_page_number": 1,
+        "expected_answer": "The expected answer is directly supported by the text in chunk JUDG-20_CHUNK-0001_SUB-3_SUB-44 from UNKNOWN.",
+        "supporting_chunk_ids": [
+            "JUDG-20_CHUNK-0001_SUB-3_SUB-44"
+        ],
+        "difficulty": "Hard"
+    },
+    {
+        "query_id": "Q-COU-010",
+        "user_query": "What does Court Judgments Citation state regarding its core provisions? [Context: JUDG-22_CHUNK-0001_SUB-5_SUB-47]",
+        "category": "Court Judgments",
+        "expected_document": "UNKNOWN",
+        "expected_document_id": "UNKNOWN",
+        "expected_citation": "Court Judgments Citation",
+        "expected_section": "General Section",
+        "expected_page_number": 1,
+        "expected_answer": "The expected answer is directly supported by the text in chunk JUDG-22_CHUNK-0001_SUB-5_SUB-47 from UNKNOWN.",
+        "supporting_chunk_ids": [
+            "JUDG-22_CHUNK-0001_SUB-5_SUB-47"
+        ],
+        "difficulty": "Medium"
+    },
+    {
+        "query_id": "Q-COU-011",
+        "user_query": "Explain the requirements found in General Section of UNKNOWN. [Context: JUDG-09_CHUNK-0001_SUB-6_SUB-43]",
+        "category": "Court Judgments",
+        "expected_document": "UNKNOWN",
+        "expected_document_id": "UNKNOWN",
+        "expected_citation": "Court Judgments Citation",
+        "expected_section": "General Section",
+        "expected_page_number": 1,
+        "expected_answer": "The expected answer is directly supported by the text in chunk JUDG-09_CHUNK-0001_SUB-6_SUB-43 from UNKNOWN.",
+        "supporting_chunk_ids": [
+            "JUDG-09_CHUNK-0001_SUB-6_SUB-43"
+        ],
+        "difficulty": "Hard"
+    },
+    {
+        "query_id": "Q-COU-012",
+        "user_query": "Explain the requirements found in General Section of UNKNOWN. [Context: JUDG-04_CHUNK-0001_SUB-14]",
+        "category": "Court Judgments",
+        "expected_document": "UNKNOWN",
+        "expected_document_id": "UNKNOWN",
+        "expected_citation": "Court Judgments Citation",
+        "expected_section": "General Section",
+        "expected_page_number": 1,
+        "expected_answer": "The expected answer is directly supported by the text in chunk JUDG-04_CHUNK-0001_SUB-14 from UNKNOWN.",
+        "supporting_chunk_ids": [
+            "JUDG-04_CHUNK-0001_SUB-14"
+        ],
+        "difficulty": "Easy"
+    },
+    {
+        "query_id": "Q-COU-013",
+        "user_query": "What does Court Judgments Citation state regarding its core provisions? [Context: JUDG-09_CHUNK-0001_SUB-6_SUB-52]",
+        "category": "Court Judgments",
+        "expected_document": "UNKNOWN",
+        "expected_document_id": "UNKNOWN",
+        "expected_citation": "Court Judgments Citation",
+        "expected_section": "General Section",
+        "expected_page_number": 1,
+        "expected_answer": "The expected answer is directly supported by the text in chunk JUDG-09_CHUNK-0001_SUB-6_SUB-52 from UNKNOWN.",
+        "supporting_chunk_ids": [
+            "JUDG-09_CHUNK-0001_SUB-6_SUB-52"
+        ],
+        "difficulty": "Easy"
+    },
+    {
+        "query_id": "Q-COU-014",
+        "user_query": "Can you summarize the legal concept discussed in Court Judgments Citation? [Context: JUDG-05_CHUNK-0001_SUB-2_SUB-1]",
+        "category": "Court Judgments",
+        "expected_document": "UNKNOWN",
+        "expected_document_id": "UNKNOWN",
+        "expected_citation": "Court Judgments Citation",
+        "expected_section": "General Section",
+        "expected_page_number": 1,
+        "expected_answer": "The expected answer is directly supported by the text in chunk JUDG-05_CHUNK-0001_SUB-2_SUB-1 from UNKNOWN.",
+        "supporting_chunk_ids": [
+            "JUDG-05_CHUNK-0001_SUB-2_SUB-1"
+        ],
+        "difficulty": "Medium"
+    },
+    {
+        "query_id": "Q-COU-015",
+        "user_query": "What is the definition of the term described in General Section? [Context: JUDG-15_CHUNK-0001_SUB-1_SUB-21]",
+        "category": "Court Judgments",
+        "expected_document": "UNKNOWN",
+        "expected_document_id": "UNKNOWN",
+        "expected_citation": "Court Judgments Citation",
+        "expected_section": "General Section",
+        "expected_page_number": 1,
+        "expected_answer": "The expected answer is directly supported by the text in chunk JUDG-15_CHUNK-0001_SUB-1_SUB-21 from UNKNOWN.",
+        "supporting_chunk_ids": [
+            "JUDG-15_CHUNK-0001_SUB-1_SUB-21"
+        ],
+        "difficulty": "Hard"
+    },
+    {
+        "query_id": "Q-COU-016",
+        "user_query": "Can you summarize the legal concept discussed in Court Judgments Citation? [Context: JUDG-07_CHUNK-0001_SUB-1]",
+        "category": "Court Judgments",
+        "expected_document": "UNKNOWN",
+        "expected_document_id": "UNKNOWN",
+        "expected_citation": "Court Judgments Citation",
+        "expected_section": "General Section",
+        "expected_page_number": 1,
+        "expected_answer": "The expected answer is directly supported by the text in chunk JUDG-07_CHUNK-0001_SUB-1 from UNKNOWN.",
+        "supporting_chunk_ids": [
+            "JUDG-07_CHUNK-0001_SUB-1"
+        ],
+        "difficulty": "Medium"
+    },
+    {
+        "query_id": "Q-COU-017",
+        "user_query": "What does Court Judgments Citation state regarding its core provisions? [Context: JUDG-25_CHUNK-0001_SUB-9_SUB-16]",
+        "category": "Court Judgments",
+        "expected_document": "UNKNOWN",
+        "expected_document_id": "UNKNOWN",
+        "expected_citation": "Court Judgments Citation",
+        "expected_section": "General Section",
+        "expected_page_number": 1,
+        "expected_answer": "The expected answer is directly supported by the text in chunk JUDG-25_CHUNK-0001_SUB-9_SUB-16 from UNKNOWN.",
+        "supporting_chunk_ids": [
+            "JUDG-25_CHUNK-0001_SUB-9_SUB-16"
+        ],
+        "difficulty": "Hard"
+    },
+    {
+        "query_id": "Q-COU-018",
+        "user_query": "Explain the requirements found in General Section of UNKNOWN. [Context: JUDG-08_CHUNK-0001_SUB-7_SUB-21]",
+        "category": "Court Judgments",
+        "expected_document": "UNKNOWN",
+        "expected_document_id": "UNKNOWN",
+        "expected_citation": "Court Judgments Citation",
+        "expected_section": "General Section",
+        "expected_page_number": 1,
+        "expected_answer": "The expected answer is directly supported by the text in chunk JUDG-08_CHUNK-0001_SUB-7_SUB-21 from UNKNOWN.",
+        "supporting_chunk_ids": [
+            "JUDG-08_CHUNK-0001_SUB-7_SUB-21"
+        ],
+        "difficulty": "Medium"
+    },
+    {
+        "query_id": "Q-COU-019",
+        "user_query": "What is the definition of the term described in General Section? [Context: JUDG-05_CHUNK-0001_SUB-2_SUB-12]",
+        "category": "Court Judgments",
+        "expected_document": "UNKNOWN",
+        "expected_document_id": "UNKNOWN",
+        "expected_citation": "Court Judgments Citation",
+        "expected_section": "General Section",
+        "expected_page_number": 1,
+        "expected_answer": "The expected answer is directly supported by the text in chunk JUDG-05_CHUNK-0001_SUB-2_SUB-12 from UNKNOWN.",
+        "supporting_chunk_ids": [
+            "JUDG-05_CHUNK-0001_SUB-2_SUB-12"
+        ],
+        "difficulty": "Easy"
+    },
+    {
+        "query_id": "Q-COU-020",
+        "user_query": "Explain the requirements found in General Section of UNKNOWN. [Context: JUDG-12_CHUNK-0001_SUB-19]",
+        "category": "Court Judgments",
+        "expected_document": "UNKNOWN",
+        "expected_document_id": "UNKNOWN",
+        "expected_citation": "Court Judgments Citation",
+        "expected_section": "General Section",
+        "expected_page_number": 1,
+        "expected_answer": "The expected answer is directly supported by the text in chunk JUDG-12_CHUNK-0001_SUB-19 from UNKNOWN.",
+        "supporting_chunk_ids": [
+            "JUDG-12_CHUNK-0001_SUB-19"
+        ],
+        "difficulty": "Medium"
+    },
+    {
+        "query_id": "Q-IRS-001",
+        "user_query": "What is the definition of the term described in General Section? [Context: IRS-11_CHUNK-0498]",
+        "category": "IRS Publications",
+        "expected_document": "UNKNOWN",
+        "expected_document_id": "UNKNOWN",
+        "expected_citation": "IRS Publications Citation",
+        "expected_section": "General Section",
+        "expected_page_number": 1,
+        "expected_answer": "The expected answer is directly supported by the text in chunk IRS-11_CHUNK-0498 from UNKNOWN.",
+        "supporting_chunk_ids": [
+            "IRS-11_CHUNK-0498"
+        ],
+        "difficulty": "Medium"
+    },
+    {
+        "query_id": "Q-IRS-002",
+        "user_query": "Can you summarize the legal concept discussed in IRS Publications Citation? [Context: IRS-08_CHUNK-0326]",
+        "category": "IRS Publications",
+        "expected_document": "UNKNOWN",
+        "expected_document_id": "UNKNOWN",
+        "expected_citation": "IRS Publications Citation",
+        "expected_section": "General Section",
+        "expected_page_number": 1,
+        "expected_answer": "The expected answer is directly supported by the text in chunk IRS-08_CHUNK-0326 from UNKNOWN.",
+        "supporting_chunk_ids": [
+            "IRS-08_CHUNK-0326"
+        ],
+        "difficulty": "Hard"
+    },
+    {
+        "query_id": "Q-IRS-003",
+        "user_query": "Explain the requirements found in General Section of UNKNOWN. [Context: IRS-05_CHUNK-0304]",
+        "category": "IRS Publications",
+        "expected_document": "UNKNOWN",
+        "expected_document_id": "UNKNOWN",
+        "expected_citation": "IRS Publications Citation",
+        "expected_section": "General Section",
+        "expected_page_number": 1,
+        "expected_answer": "The expected answer is directly supported by the text in chunk IRS-05_CHUNK-0304 from UNKNOWN.",
+        "supporting_chunk_ids": [
+            "IRS-05_CHUNK-0304"
+        ],
+        "difficulty": "Hard"
+    },
+    {
+        "query_id": "Q-IRS-004",
+        "user_query": "According to UNKNOWN, what are the specific rules mentioned on page 1? [Context: IRS-24_CHUNK-0048]",
+        "category": "IRS Publications",
+        "expected_document": "UNKNOWN",
+        "expected_document_id": "UNKNOWN",
+        "expected_citation": "IRS Publications Citation",
+        "expected_section": "General Section",
+        "expected_page_number": 1,
+        "expected_answer": "The expected answer is directly supported by the text in chunk IRS-24_CHUNK-0048 from UNKNOWN.",
+        "supporting_chunk_ids": [
+            "IRS-24_CHUNK-0048"
+        ],
+        "difficulty": "Hard"
+    },
+    {
+        "query_id": "Q-IRS-005",
+        "user_query": "What is the definition of the term described in General Section? [Context: IRS-13_CHUNK-0100]",
+        "category": "IRS Publications",
+        "expected_document": "UNKNOWN",
+        "expected_document_id": "UNKNOWN",
+        "expected_citation": "IRS Publications Citation",
+        "expected_section": "General Section",
+        "expected_page_number": 1,
+        "expected_answer": "The expected answer is directly supported by the text in chunk IRS-13_CHUNK-0100 from UNKNOWN.",
+        "supporting_chunk_ids": [
+            "IRS-13_CHUNK-0100"
+        ],
+        "difficulty": "Easy"
+    },
+    {
+        "query_id": "Q-IRS-006",
+        "user_query": "According to UNKNOWN, what are the specific rules mentioned on page 1? [Context: IRS-02_CHUNK-0113]",
+        "category": "IRS Publications",
+        "expected_document": "UNKNOWN",
+        "expected_document_id": "UNKNOWN",
+        "expected_citation": "IRS Publications Citation",
+        "expected_section": "General Section",
+        "expected_page_number": 1,
+        "expected_answer": "The expected answer is directly supported by the text in chunk IRS-02_CHUNK-0113 from UNKNOWN.",
+        "supporting_chunk_ids": [
+            "IRS-02_CHUNK-0113"
+        ],
+        "difficulty": "Easy"
+    },
+    {
+        "query_id": "Q-IRS-007",
+        "user_query": "What does IRS Publications Citation state regarding its core provisions? [Context: IRS-10_CHUNK-0136]",
+        "category": "IRS Publications",
+        "expected_document": "UNKNOWN",
+        "expected_document_id": "UNKNOWN",
+        "expected_citation": "IRS Publications Citation",
+        "expected_section": "General Section",
+        "expected_page_number": 1,
+        "expected_answer": "The expected answer is directly supported by the text in chunk IRS-10_CHUNK-0136 from UNKNOWN.",
+        "supporting_chunk_ids": [
+            "IRS-10_CHUNK-0136"
+        ],
+        "difficulty": "Hard"
+    },
+    {
+        "query_id": "Q-IRS-008",
+        "user_query": "What does IRS Publications Citation state regarding its core provisions? [Context: IRS-15_CHUNK-0080]",
+        "category": "IRS Publications",
+        "expected_document": "UNKNOWN",
+        "expected_document_id": "UNKNOWN",
+        "expected_citation": "IRS Publications Citation",
+        "expected_section": "General Section",
+        "expected_page_number": 1,
+        "expected_answer": "The expected answer is directly supported by the text in chunk IRS-15_CHUNK-0080 from UNKNOWN.",
+        "supporting_chunk_ids": [
+            "IRS-15_CHUNK-0080"
+        ],
+        "difficulty": "Easy"
+    },
+    {
+        "query_id": "Q-IRS-009",
+        "user_query": "According to UNKNOWN, what are the specific rules mentioned on page 1? [Context: IRS-06_CHUNK-1099]",
+        "category": "IRS Publications",
+        "expected_document": "UNKNOWN",
+        "expected_document_id": "UNKNOWN",
+        "expected_citation": "IRS Publications Citation",
+        "expected_section": "General Section",
+        "expected_page_number": 1,
+        "expected_answer": "The expected answer is directly supported by the text in chunk IRS-06_CHUNK-1099 from UNKNOWN.",
+        "supporting_chunk_ids": [
+            "IRS-06_CHUNK-1099"
+        ],
+        "difficulty": "Easy"
+    },
+    {
+        "query_id": "Q-IRS-010",
+        "user_query": "What is the definition of the term described in General Section? [Context: IRS-11_CHUNK-0361]",
+        "category": "IRS Publications",
+        "expected_document": "UNKNOWN",
+        "expected_document_id": "UNKNOWN",
+        "expected_citation": "IRS Publications Citation",
+        "expected_section": "General Section",
+        "expected_page_number": 1,
+        "expected_answer": "The expected answer is directly supported by the text in chunk IRS-11_CHUNK-0361 from UNKNOWN.",
+        "supporting_chunk_ids": [
+            "IRS-11_CHUNK-0361"
+        ],
+        "difficulty": "Hard"
+    },
+    {
+        "query_id": "Q-IRS-011",
+        "user_query": "According to UNKNOWN, what are the specific rules mentioned on page 1? [Context: IRS-11_CHUNK-0214]",
+        "category": "IRS Publications",
+        "expected_document": "UNKNOWN",
+        "expected_document_id": "UNKNOWN",
+        "expected_citation": "IRS Publications Citation",
+        "expected_section": "General Section",
+        "expected_page_number": 1,
+        "expected_answer": "The expected answer is directly supported by the text in chunk IRS-11_CHUNK-0214 from UNKNOWN.",
+        "supporting_chunk_ids": [
+            "IRS-11_CHUNK-0214"
+        ],
+        "difficulty": "Easy"
+    },
+    {
+        "query_id": "Q-IRS-012",
+        "user_query": "Can you summarize the legal concept discussed in IRS Publications Citation? [Context: IRS-22_CHUNK-0011]",
+        "category": "IRS Publications",
+        "expected_document": "UNKNOWN",
+        "expected_document_id": "UNKNOWN",
+        "expected_citation": "IRS Publications Citation",
+        "expected_section": "General Section",
+        "expected_page_number": 1,
+        "expected_answer": "The expected answer is directly supported by the text in chunk IRS-22_CHUNK-0011 from UNKNOWN.",
+        "supporting_chunk_ids": [
+            "IRS-22_CHUNK-0011"
+        ],
+        "difficulty": "Easy"
+    },
+    {
+        "query_id": "Q-IRS-013",
+        "user_query": "What is the definition of the term described in General Section? [Context: IRS-09_CHUNK-0082]",
+        "category": "IRS Publications",
+        "expected_document": "UNKNOWN",
+        "expected_document_id": "UNKNOWN",
+        "expected_citation": "IRS Publications Citation",
+        "expected_section": "General Section",
+        "expected_page_number": 1,
+        "expected_answer": "The expected answer is directly supported by the text in chunk IRS-09_CHUNK-0082 from UNKNOWN.",
+        "supporting_chunk_ids": [
+            "IRS-09_CHUNK-0082"
+        ],
+        "difficulty": "Easy"
+    },
+    {
+        "query_id": "Q-IRS-014",
+        "user_query": "According to UNKNOWN, what are the specific rules mentioned on page 1? [Context: IRS-03_CHUNK-0012]",
+        "category": "IRS Publications",
+        "expected_document": "UNKNOWN",
+        "expected_document_id": "UNKNOWN",
+        "expected_citation": "IRS Publications Citation",
+        "expected_section": "General Section",
+        "expected_page_number": 1,
+        "expected_answer": "The expected answer is directly supported by the text in chunk IRS-03_CHUNK-0012 from UNKNOWN.",
+        "supporting_chunk_ids": [
+            "IRS-03_CHUNK-0012"
+        ],
+        "difficulty": "Easy"
+    },
+    {
+        "query_id": "Q-IRS-015",
+        "user_query": "Can you summarize the legal concept discussed in IRS Publications Citation? [Context: IRS-05_CHUNK-1250]",
+        "category": "IRS Publications",
+        "expected_document": "UNKNOWN",
+        "expected_document_id": "UNKNOWN",
+        "expected_citation": "IRS Publications Citation",
+        "expected_section": "General Section",
+        "expected_page_number": 1,
+        "expected_answer": "The expected answer is directly supported by the text in chunk IRS-05_CHUNK-1250 from UNKNOWN.",
+        "supporting_chunk_ids": [
+            "IRS-05_CHUNK-1250"
+        ],
+        "difficulty": "Hard"
+    },
+    {
+        "query_id": "Q-IRS-016",
+        "user_query": "According to UNKNOWN, what are the specific rules mentioned on page 1? [Context: IRS-13_CHUNK-0166]",
+        "category": "IRS Publications",
+        "expected_document": "UNKNOWN",
+        "expected_document_id": "UNKNOWN",
+        "expected_citation": "IRS Publications Citation",
+        "expected_section": "General Section",
+        "expected_page_number": 1,
+        "expected_answer": "The expected answer is directly supported by the text in chunk IRS-13_CHUNK-0166 from UNKNOWN.",
+        "supporting_chunk_ids": [
+            "IRS-13_CHUNK-0166"
+        ],
+        "difficulty": "Hard"
+    },
+    {
+        "query_id": "Q-IRS-017",
+        "user_query": "Can you summarize the legal concept discussed in IRS Publications Citation? [Context: IRS-25_CHUNK-0377]",
+        "category": "IRS Publications",
+        "expected_document": "UNKNOWN",
+        "expected_document_id": "UNKNOWN",
+        "expected_citation": "IRS Publications Citation",
+        "expected_section": "General Section",
+        "expected_page_number": 1,
+        "expected_answer": "The expected answer is directly supported by the text in chunk IRS-25_CHUNK-0377 from UNKNOWN.",
+        "supporting_chunk_ids": [
+            "IRS-25_CHUNK-0377"
+        ],
+        "difficulty": "Hard"
+    },
+    {
+        "query_id": "Q-IRS-018",
+        "user_query": "Can you summarize the legal concept discussed in IRS Publications Citation? [Context: IRS-20_CHUNK-0038]",
+        "category": "IRS Publications",
+        "expected_document": "UNKNOWN",
+        "expected_document_id": "UNKNOWN",
+        "expected_citation": "IRS Publications Citation",
+        "expected_section": "General Section",
+        "expected_page_number": 1,
+        "expected_answer": "The expected answer is directly supported by the text in chunk IRS-20_CHUNK-0038 from UNKNOWN.",
+        "supporting_chunk_ids": [
+            "IRS-20_CHUNK-0038"
+        ],
+        "difficulty": "Hard"
+    },
+    {
+        "query_id": "Q-IRS-019",
+        "user_query": "What does IRS Publications Citation state regarding its core provisions? [Context: IRS-11_CHUNK-0217]",
+        "category": "IRS Publications",
+        "expected_document": "UNKNOWN",
+        "expected_document_id": "UNKNOWN",
+        "expected_citation": "IRS Publications Citation",
+        "expected_section": "General Section",
+        "expected_page_number": 1,
+        "expected_answer": "The expected answer is directly supported by the text in chunk IRS-11_CHUNK-0217 from UNKNOWN.",
+        "supporting_chunk_ids": [
+            "IRS-11_CHUNK-0217"
+        ],
+        "difficulty": "Hard"
+    },
+    {
+        "query_id": "Q-IRS-020",
+        "user_query": "What is the definition of the term described in General Section? [Context: IRS-11_CHUNK-0094]",
+        "category": "IRS Publications",
+        "expected_document": "UNKNOWN",
+        "expected_document_id": "UNKNOWN",
+        "expected_citation": "IRS Publications Citation",
+        "expected_section": "General Section",
+        "expected_page_number": 1,
+        "expected_answer": "The expected answer is directly supported by the text in chunk IRS-11_CHUNK-0094 from UNKNOWN.",
+        "supporting_chunk_ids": [
+            "IRS-11_CHUNK-0094"
+        ],
+        "difficulty": "Easy"
+    },
+    {
+        "query_id": "Q-TRE-001",
+        "user_query": "What is the definition of the term described in General Section? [Context: REG-08_CHUNK-0106]",
+        "category": "Treasury Regulations",
+        "expected_document": "UNKNOWN",
+        "expected_document_id": "UNKNOWN",
+        "expected_citation": "Treasury Regulations Citation",
+        "expected_section": "General Section",
+        "expected_page_number": 1,
+        "expected_answer": "The expected answer is directly supported by the text in chunk REG-08_CHUNK-0106 from UNKNOWN.",
+        "supporting_chunk_ids": [
+            "REG-08_CHUNK-0106"
+        ],
+        "difficulty": "Medium"
+    },
+    {
+        "query_id": "Q-TRE-002",
+        "user_query": "Can you summarize the legal concept discussed in Treasury Regulations Citation? [Context: REG-06_CHUNK-2013_SUB-4]",
+        "category": "Treasury Regulations",
+        "expected_document": "UNKNOWN",
+        "expected_document_id": "UNKNOWN",
+        "expected_citation": "Treasury Regulations Citation",
+        "expected_section": "General Section",
+        "expected_page_number": 1,
+        "expected_answer": "The expected answer is directly supported by the text in chunk REG-06_CHUNK-2013_SUB-4 from UNKNOWN.",
+        "supporting_chunk_ids": [
+            "REG-06_CHUNK-2013_SUB-4"
+        ],
+        "difficulty": "Hard"
+    },
+    {
+        "query_id": "Q-TRE-003",
+        "user_query": "Explain the requirements found in General Section of UNKNOWN. [Context: REG-01_CHUNK-1097]",
+        "category": "Treasury Regulations",
+        "expected_document": "UNKNOWN",
+        "expected_document_id": "UNKNOWN",
+        "expected_citation": "Treasury Regulations Citation",
+        "expected_section": "General Section",
+        "expected_page_number": 1,
+        "expected_answer": "The expected answer is directly supported by the text in chunk REG-01_CHUNK-1097 from UNKNOWN.",
+        "supporting_chunk_ids": [
+            "REG-01_CHUNK-1097"
+        ],
+        "difficulty": "Hard"
+    },
+    {
+        "query_id": "Q-TRE-004",
+        "user_query": "What is the definition of the term described in General Section? [Context: REG-06_CHUNK-1804]",
+        "category": "Treasury Regulations",
+        "expected_document": "UNKNOWN",
+        "expected_document_id": "UNKNOWN",
+        "expected_citation": "Treasury Regulations Citation",
+        "expected_section": "General Section",
+        "expected_page_number": 1,
+        "expected_answer": "The expected answer is directly supported by the text in chunk REG-06_CHUNK-1804 from UNKNOWN.",
+        "supporting_chunk_ids": [
+            "REG-06_CHUNK-1804"
+        ],
+        "difficulty": "Medium"
+    },
+    {
+        "query_id": "Q-TRE-005",
+        "user_query": "Explain the requirements found in General Section of UNKNOWN. [Context: REG-03_CHUNK-0389]",
+        "category": "Treasury Regulations",
+        "expected_document": "UNKNOWN",
+        "expected_document_id": "UNKNOWN",
+        "expected_citation": "Treasury Regulations Citation",
+        "expected_section": "General Section",
+        "expected_page_number": 1,
+        "expected_answer": "The expected answer is directly supported by the text in chunk REG-03_CHUNK-0389 from UNKNOWN.",
+        "supporting_chunk_ids": [
+            "REG-03_CHUNK-0389"
+        ],
+        "difficulty": "Medium"
+    },
+    {
+        "query_id": "Q-TRE-006",
+        "user_query": "Explain the requirements found in General Section of UNKNOWN. [Context: REG-03_CHUNK-0327_SUB-3]",
+        "category": "Treasury Regulations",
+        "expected_document": "UNKNOWN",
+        "expected_document_id": "UNKNOWN",
+        "expected_citation": "Treasury Regulations Citation",
+        "expected_section": "General Section",
+        "expected_page_number": 1,
+        "expected_answer": "The expected answer is directly supported by the text in chunk REG-03_CHUNK-0327_SUB-3 from UNKNOWN.",
+        "supporting_chunk_ids": [
+            "REG-03_CHUNK-0327_SUB-3"
+        ],
+        "difficulty": "Hard"
+    },
+    {
+        "query_id": "Q-TRE-007",
+        "user_query": "Can you summarize the legal concept discussed in Treasury Regulations Citation? [Context: REG-04_CHUNK-1065_SUB-1_SUB-1]",
+        "category": "Treasury Regulations",
+        "expected_document": "UNKNOWN",
+        "expected_document_id": "UNKNOWN",
+        "expected_citation": "Treasury Regulations Citation",
+        "expected_section": "General Section",
+        "expected_page_number": 1,
+        "expected_answer": "The expected answer is directly supported by the text in chunk REG-04_CHUNK-1065_SUB-1_SUB-1 from UNKNOWN.",
+        "supporting_chunk_ids": [
+            "REG-04_CHUNK-1065_SUB-1_SUB-1"
+        ],
+        "difficulty": "Medium"
+    },
+    {
+        "query_id": "Q-TRE-008",
+        "user_query": "According to UNKNOWN, what are the specific rules mentioned on page 1? [Context: REG-10_CHUNK-2133]",
+        "category": "Treasury Regulations",
+        "expected_document": "UNKNOWN",
+        "expected_document_id": "UNKNOWN",
+        "expected_citation": "Treasury Regulations Citation",
+        "expected_section": "General Section",
+        "expected_page_number": 1,
+        "expected_answer": "The expected answer is directly supported by the text in chunk REG-10_CHUNK-2133 from UNKNOWN.",
+        "supporting_chunk_ids": [
+            "REG-10_CHUNK-2133"
+        ],
+        "difficulty": "Easy"
+    },
+    {
+        "query_id": "Q-TRE-009",
+        "user_query": "What does Treasury Regulations Citation state regarding its core provisions? [Context: REG-13_CHUNK-2963]",
+        "category": "Treasury Regulations",
+        "expected_document": "UNKNOWN",
+        "expected_document_id": "UNKNOWN",
+        "expected_citation": "Treasury Regulations Citation",
+        "expected_section": "General Section",
+        "expected_page_number": 1,
+        "expected_answer": "The expected answer is directly supported by the text in chunk REG-13_CHUNK-2963 from UNKNOWN.",
+        "supporting_chunk_ids": [
+            "REG-13_CHUNK-2963"
+        ],
+        "difficulty": "Easy"
+    },
+    {
+        "query_id": "Q-TRE-010",
+        "user_query": "What does Treasury Regulations Citation state regarding its core provisions? [Context: REG-15_CHUNK-3044]",
+        "category": "Treasury Regulations",
+        "expected_document": "UNKNOWN",
+        "expected_document_id": "UNKNOWN",
+        "expected_citation": "Treasury Regulations Citation",
+        "expected_section": "General Section",
+        "expected_page_number": 1,
+        "expected_answer": "The expected answer is directly supported by the text in chunk REG-15_CHUNK-3044 from UNKNOWN.",
+        "supporting_chunk_ids": [
+            "REG-15_CHUNK-3044"
+        ],
+        "difficulty": "Medium"
+    },
+    {
+        "query_id": "Q-TRE-011",
+        "user_query": "Explain the requirements found in General Section of UNKNOWN. [Context: REG-08_CHUNK-1252_SUB-5]",
+        "category": "Treasury Regulations",
+        "expected_document": "UNKNOWN",
+        "expected_document_id": "UNKNOWN",
+        "expected_citation": "Treasury Regulations Citation",
+        "expected_section": "General Section",
+        "expected_page_number": 1,
+        "expected_answer": "The expected answer is directly supported by the text in chunk REG-08_CHUNK-1252_SUB-5 from UNKNOWN.",
+        "supporting_chunk_ids": [
+            "REG-08_CHUNK-1252_SUB-5"
+        ],
+        "difficulty": "Medium"
+    },
+    {
+        "query_id": "Q-TRE-012",
+        "user_query": "Explain the requirements found in General Section of UNKNOWN. [Context: REG-10_CHUNK-0759_SUB-1_SUB-13]",
+        "category": "Treasury Regulations",
+        "expected_document": "UNKNOWN",
+        "expected_document_id": "UNKNOWN",
+        "expected_citation": "Treasury Regulations Citation",
+        "expected_section": "General Section",
+        "expected_page_number": 1,
+        "expected_answer": "The expected answer is directly supported by the text in chunk REG-10_CHUNK-0759_SUB-1_SUB-13 from UNKNOWN.",
+        "supporting_chunk_ids": [
+            "REG-10_CHUNK-0759_SUB-1_SUB-13"
+        ],
+        "difficulty": "Easy"
+    },
+    {
+        "query_id": "Q-TRE-013",
+        "user_query": "What does Treasury Regulations Citation state regarding its core provisions? [Context: REG-13_CHUNK-0216_SUB-5_SUB-34]",
+        "category": "Treasury Regulations",
+        "expected_document": "UNKNOWN",
+        "expected_document_id": "UNKNOWN",
+        "expected_citation": "Treasury Regulations Citation",
+        "expected_section": "General Section",
+        "expected_page_number": 1,
+        "expected_answer": "The expected answer is directly supported by the text in chunk REG-13_CHUNK-0216_SUB-5_SUB-34 from UNKNOWN.",
+        "supporting_chunk_ids": [
+            "REG-13_CHUNK-0216_SUB-5_SUB-34"
+        ],
+        "difficulty": "Easy"
+    },
+    {
+        "query_id": "Q-TRE-014",
+        "user_query": "Explain the requirements found in General Section of UNKNOWN. [Context: REG-03_CHUNK-0670_SUB-2]",
+        "category": "Treasury Regulations",
+        "expected_document": "UNKNOWN",
+        "expected_document_id": "UNKNOWN",
+        "expected_citation": "Treasury Regulations Citation",
+        "expected_section": "General Section",
+        "expected_page_number": 1,
+        "expected_answer": "The expected answer is directly supported by the text in chunk REG-03_CHUNK-0670_SUB-2 from UNKNOWN.",
+        "supporting_chunk_ids": [
+            "REG-03_CHUNK-0670_SUB-2"
+        ],
+        "difficulty": "Medium"
+    },
+    {
+        "query_id": "Q-TRE-015",
+        "user_query": "What does Treasury Regulations Citation state regarding its core provisions? [Context: REG-06_CHUNK-1442_SUB-1_SUB-1_SUB-38]",
+        "category": "Treasury Regulations",
+        "expected_document": "UNKNOWN",
+        "expected_document_id": "UNKNOWN",
+        "expected_citation": "Treasury Regulations Citation",
+        "expected_section": "General Section",
+        "expected_page_number": 1,
+        "expected_answer": "The expected answer is directly supported by the text in chunk REG-06_CHUNK-1442_SUB-1_SUB-1_SUB-38 from UNKNOWN.",
+        "supporting_chunk_ids": [
+            "REG-06_CHUNK-1442_SUB-1_SUB-1_SUB-38"
+        ],
+        "difficulty": "Medium"
+    },
+    {
+        "query_id": "Q-TRE-016",
+        "user_query": "Explain the requirements found in General Section of UNKNOWN. [Context: REG-06_CHUNK-2053_SUB-2]",
+        "category": "Treasury Regulations",
+        "expected_document": "UNKNOWN",
+        "expected_document_id": "UNKNOWN",
+        "expected_citation": "Treasury Regulations Citation",
+        "expected_section": "General Section",
+        "expected_page_number": 1,
+        "expected_answer": "The expected answer is directly supported by the text in chunk REG-06_CHUNK-2053_SUB-2 from UNKNOWN.",
+        "supporting_chunk_ids": [
+            "REG-06_CHUNK-2053_SUB-2"
+        ],
+        "difficulty": "Hard"
+    },
+    {
+        "query_id": "Q-TRE-017",
+        "user_query": "According to UNKNOWN, what are the specific rules mentioned on page 1? [Context: REG-05_CHUNK-0401]",
+        "category": "Treasury Regulations",
+        "expected_document": "UNKNOWN",
+        "expected_document_id": "UNKNOWN",
+        "expected_citation": "Treasury Regulations Citation",
+        "expected_section": "General Section",
+        "expected_page_number": 1,
+        "expected_answer": "The expected answer is directly supported by the text in chunk REG-05_CHUNK-0401 from UNKNOWN.",
+        "supporting_chunk_ids": [
+            "REG-05_CHUNK-0401"
+        ],
+        "difficulty": "Hard"
+    },
+    {
+        "query_id": "Q-TRE-018",
+        "user_query": "Can you summarize the legal concept discussed in Treasury Regulations Citation? [Context: REG-08_CHUNK-1120]",
+        "category": "Treasury Regulations",
+        "expected_document": "UNKNOWN",
+        "expected_document_id": "UNKNOWN",
+        "expected_citation": "Treasury Regulations Citation",
+        "expected_section": "General Section",
+        "expected_page_number": 1,
+        "expected_answer": "The expected answer is directly supported by the text in chunk REG-08_CHUNK-1120 from UNKNOWN.",
+        "supporting_chunk_ids": [
+            "REG-08_CHUNK-1120"
+        ],
+        "difficulty": "Medium"
+    },
+    {
+        "query_id": "Q-TRE-019",
+        "user_query": "What is the definition of the term described in General Section? [Context: REG-12_CHUNK-0434]",
+        "category": "Treasury Regulations",
+        "expected_document": "UNKNOWN",
+        "expected_document_id": "UNKNOWN",
+        "expected_citation": "Treasury Regulations Citation",
+        "expected_section": "General Section",
+        "expected_page_number": 1,
+        "expected_answer": "The expected answer is directly supported by the text in chunk REG-12_CHUNK-0434 from UNKNOWN.",
+        "supporting_chunk_ids": [
+            "REG-12_CHUNK-0434"
+        ],
+        "difficulty": "Hard"
+    },
+    {
+        "query_id": "Q-TRE-020",
+        "user_query": "What is the definition of the term described in General Section? [Context: REG-06_CHUNK-0319]",
+        "category": "Treasury Regulations",
+        "expected_document": "UNKNOWN",
+        "expected_document_id": "UNKNOWN",
+        "expected_citation": "Treasury Regulations Citation",
+        "expected_section": "General Section",
+        "expected_page_number": 1,
+        "expected_answer": "The expected answer is directly supported by the text in chunk REG-06_CHUNK-0319 from UNKNOWN.",
+        "supporting_chunk_ids": [
+            "REG-06_CHUNK-0319"
+        ],
+        "difficulty": "Medium"
+    },
+    {
+        "query_id": "Q-LEG-001",
+        "user_query": "Explain the requirements found in General Section of UNKNOWN. [Context: COM-02_CHUNK-0425]",
+        "category": "Legal Commentary",
+        "expected_document": "UNKNOWN",
+        "expected_document_id": "UNKNOWN",
+        "expected_citation": "Legal Commentary Citation",
+        "expected_section": "General Section",
+        "expected_page_number": 1,
+        "expected_answer": "The expected answer is directly supported by the text in chunk COM-02_CHUNK-0425 from UNKNOWN.",
+        "supporting_chunk_ids": [
+            "COM-02_CHUNK-0425"
+        ],
+        "difficulty": "Easy"
+    },
+    {
+        "query_id": "Q-LEG-002",
+        "user_query": "According to UNKNOWN, what are the specific rules mentioned on page 1? [Context: COM-02_CHUNK-0217]",
+        "category": "Legal Commentary",
+        "expected_document": "UNKNOWN",
+        "expected_document_id": "UNKNOWN",
+        "expected_citation": "Legal Commentary Citation",
+        "expected_section": "General Section",
+        "expected_page_number": 1,
+        "expected_answer": "The expected answer is directly supported by the text in chunk COM-02_CHUNK-0217 from UNKNOWN.",
+        "supporting_chunk_ids": [
+            "COM-02_CHUNK-0217"
+        ],
+        "difficulty": "Hard"
+    },
+    {
+        "query_id": "Q-LEG-003",
+        "user_query": "What does Legal Commentary Citation state regarding its core provisions? [Context: COM-02_CHUNK-0024]",
+        "category": "Legal Commentary",
+        "expected_document": "UNKNOWN",
+        "expected_document_id": "UNKNOWN",
+        "expected_citation": "Legal Commentary Citation",
+        "expected_section": "General Section",
+        "expected_page_number": 1,
+        "expected_answer": "The expected answer is directly supported by the text in chunk COM-02_CHUNK-0024 from UNKNOWN.",
+        "supporting_chunk_ids": [
+            "COM-02_CHUNK-0024"
+        ],
+        "difficulty": "Easy"
+    },
+    {
+        "query_id": "Q-LEG-004",
+        "user_query": "According to UNKNOWN, what are the specific rules mentioned on page 1? [Context: COM-02_CHUNK-0273]",
+        "category": "Legal Commentary",
+        "expected_document": "UNKNOWN",
+        "expected_document_id": "UNKNOWN",
+        "expected_citation": "Legal Commentary Citation",
+        "expected_section": "General Section",
+        "expected_page_number": 1,
+        "expected_answer": "The expected answer is directly supported by the text in chunk COM-02_CHUNK-0273 from UNKNOWN.",
+        "supporting_chunk_ids": [
+            "COM-02_CHUNK-0273"
+        ],
+        "difficulty": "Medium"
+    },
+    {
+        "query_id": "Q-LEG-005",
+        "user_query": "What does Legal Commentary Citation state regarding its core provisions? [Context: COM-14_CHUNK-0009]",
+        "category": "Legal Commentary",
+        "expected_document": "UNKNOWN",
+        "expected_document_id": "UNKNOWN",
+        "expected_citation": "Legal Commentary Citation",
+        "expected_section": "General Section",
+        "expected_page_number": 1,
+        "expected_answer": "The expected answer is directly supported by the text in chunk COM-14_CHUNK-0009 from UNKNOWN.",
+        "supporting_chunk_ids": [
+            "COM-14_CHUNK-0009"
+        ],
+        "difficulty": "Medium"
+    },
+    {
+        "query_id": "Q-LEG-006",
+        "user_query": "What is the definition of the term described in General Section? [Context: COM-02_CHUNK-0175]",
+        "category": "Legal Commentary",
+        "expected_document": "UNKNOWN",
+        "expected_document_id": "UNKNOWN",
+        "expected_citation": "Legal Commentary Citation",
+        "expected_section": "General Section",
+        "expected_page_number": 1,
+        "expected_answer": "The expected answer is directly supported by the text in chunk COM-02_CHUNK-0175 from UNKNOWN.",
+        "supporting_chunk_ids": [
+            "COM-02_CHUNK-0175"
+        ],
+        "difficulty": "Easy"
+    },
+    {
+        "query_id": "Q-LEG-007",
+        "user_query": "Can you summarize the legal concept discussed in Legal Commentary Citation? [Context: COM-02_CHUNK-0132_SUB-9]",
+        "category": "Legal Commentary",
+        "expected_document": "UNKNOWN",
+        "expected_document_id": "UNKNOWN",
+        "expected_citation": "Legal Commentary Citation",
+        "expected_section": "General Section",
+        "expected_page_number": 1,
+        "expected_answer": "The expected answer is directly supported by the text in chunk COM-02_CHUNK-0132_SUB-9 from UNKNOWN.",
+        "supporting_chunk_ids": [
+            "COM-02_CHUNK-0132_SUB-9"
+        ],
+        "difficulty": "Hard"
+    },
+    {
+        "query_id": "Q-LEG-008",
+        "user_query": "Explain the requirements found in General Section of UNKNOWN. [Context: COM-07_CHUNK-0004]",
+        "category": "Legal Commentary",
+        "expected_document": "UNKNOWN",
+        "expected_document_id": "UNKNOWN",
+        "expected_citation": "Legal Commentary Citation",
+        "expected_section": "General Section",
+        "expected_page_number": 1,
+        "expected_answer": "The expected answer is directly supported by the text in chunk COM-07_CHUNK-0004 from UNKNOWN.",
+        "supporting_chunk_ids": [
+            "COM-07_CHUNK-0004"
+        ],
+        "difficulty": "Easy"
+    },
+    {
+        "query_id": "Q-LEG-009",
+        "user_query": "According to UNKNOWN, what are the specific rules mentioned on page 1? [Context: COM-02_CHUNK-0088]",
+        "category": "Legal Commentary",
+        "expected_document": "UNKNOWN",
+        "expected_document_id": "UNKNOWN",
+        "expected_citation": "Legal Commentary Citation",
+        "expected_section": "General Section",
+        "expected_page_number": 1,
+        "expected_answer": "The expected answer is directly supported by the text in chunk COM-02_CHUNK-0088 from UNKNOWN.",
+        "supporting_chunk_ids": [
+            "COM-02_CHUNK-0088"
+        ],
+        "difficulty": "Easy"
+    },
+    {
+        "query_id": "Q-LEG-010",
+        "user_query": "What is the definition of the term described in General Section? [Context: COM-02_CHUNK-0050_SUB-3]",
+        "category": "Legal Commentary",
+        "expected_document": "UNKNOWN",
+        "expected_document_id": "UNKNOWN",
+        "expected_citation": "Legal Commentary Citation",
+        "expected_section": "General Section",
+        "expected_page_number": 1,
+        "expected_answer": "The expected answer is directly supported by the text in chunk COM-02_CHUNK-0050_SUB-3 from UNKNOWN.",
+        "supporting_chunk_ids": [
+            "COM-02_CHUNK-0050_SUB-3"
+        ],
+        "difficulty": "Hard"
+    },
+    {
+        "query_id": "Q-LEG-011",
+        "user_query": "What does Legal Commentary Citation state regarding its core provisions? [Context: COM-02_CHUNK-0315]",
+        "category": "Legal Commentary",
+        "expected_document": "UNKNOWN",
+        "expected_document_id": "UNKNOWN",
+        "expected_citation": "Legal Commentary Citation",
+        "expected_section": "General Section",
+        "expected_page_number": 1,
+        "expected_answer": "The expected answer is directly supported by the text in chunk COM-02_CHUNK-0315 from UNKNOWN.",
+        "supporting_chunk_ids": [
+            "COM-02_CHUNK-0315"
+        ],
+        "difficulty": "Medium"
+    },
+    {
+        "query_id": "Q-LEG-012",
+        "user_query": "Can you summarize the legal concept discussed in Legal Commentary Citation? [Context: COM-05_CHUNK-0001]",
+        "category": "Legal Commentary",
+        "expected_document": "UNKNOWN",
+        "expected_document_id": "UNKNOWN",
+        "expected_citation": "Legal Commentary Citation",
+        "expected_section": "General Section",
+        "expected_page_number": 1,
+        "expected_answer": "The expected answer is directly supported by the text in chunk COM-05_CHUNK-0001 from UNKNOWN.",
+        "supporting_chunk_ids": [
+            "COM-05_CHUNK-0001"
+        ],
+        "difficulty": "Easy"
+    },
+    {
+        "query_id": "Q-LEG-013",
+        "user_query": "What is the definition of the term described in General Section? [Context: COM-05_CHUNK-0007_SUB-10]",
+        "category": "Legal Commentary",
+        "expected_document": "UNKNOWN",
+        "expected_document_id": "UNKNOWN",
+        "expected_citation": "Legal Commentary Citation",
+        "expected_section": "General Section",
+        "expected_page_number": 1,
+        "expected_answer": "The expected answer is directly supported by the text in chunk COM-05_CHUNK-0007_SUB-10 from UNKNOWN.",
+        "supporting_chunk_ids": [
+            "COM-05_CHUNK-0007_SUB-10"
+        ],
+        "difficulty": "Medium"
+    },
+    {
+        "query_id": "Q-LEG-014",
+        "user_query": "What is the definition of the term described in General Section? [Context: COM-04_CHUNK-0006]",
+        "category": "Legal Commentary",
+        "expected_document": "UNKNOWN",
+        "expected_document_id": "UNKNOWN",
+        "expected_citation": "Legal Commentary Citation",
+        "expected_section": "General Section",
+        "expected_page_number": 1,
+        "expected_answer": "The expected answer is directly supported by the text in chunk COM-04_CHUNK-0006 from UNKNOWN.",
+        "supporting_chunk_ids": [
+            "COM-04_CHUNK-0006"
+        ],
+        "difficulty": "Easy"
+    },
+    {
+        "query_id": "Q-LEG-015",
+        "user_query": "Can you summarize the legal concept discussed in Legal Commentary Citation? [Context: COM-02_CHUNK-0084]",
+        "category": "Legal Commentary",
+        "expected_document": "UNKNOWN",
+        "expected_document_id": "UNKNOWN",
+        "expected_citation": "Legal Commentary Citation",
+        "expected_section": "General Section",
+        "expected_page_number": 1,
+        "expected_answer": "The expected answer is directly supported by the text in chunk COM-02_CHUNK-0084 from UNKNOWN.",
+        "supporting_chunk_ids": [
+            "COM-02_CHUNK-0084"
+        ],
+        "difficulty": "Easy"
+    },
+    {
+        "query_id": "Q-LEG-016",
+        "user_query": "Explain the requirements found in General Section of UNKNOWN. [Context: COM-02_CHUNK-0105]",
+        "category": "Legal Commentary",
+        "expected_document": "UNKNOWN",
+        "expected_document_id": "UNKNOWN",
+        "expected_citation": "Legal Commentary Citation",
+        "expected_section": "General Section",
+        "expected_page_number": 1,
+        "expected_answer": "The expected answer is directly supported by the text in chunk COM-02_CHUNK-0105 from UNKNOWN.",
+        "supporting_chunk_ids": [
+            "COM-02_CHUNK-0105"
+        ],
+        "difficulty": "Easy"
+    },
+    {
+        "query_id": "Q-LEG-017",
+        "user_query": "What does Legal Commentary Citation state regarding its core provisions? [Context: COM-02_CHUNK-0138_SUB-15]",
+        "category": "Legal Commentary",
+        "expected_document": "UNKNOWN",
+        "expected_document_id": "UNKNOWN",
+        "expected_citation": "Legal Commentary Citation",
+        "expected_section": "General Section",
+        "expected_page_number": 1,
+        "expected_answer": "The expected answer is directly supported by the text in chunk COM-02_CHUNK-0138_SUB-15 from UNKNOWN.",
+        "supporting_chunk_ids": [
+            "COM-02_CHUNK-0138_SUB-15"
+        ],
+        "difficulty": "Medium"
+    },
+    {
+        "query_id": "Q-LEG-018",
+        "user_query": "According to UNKNOWN, what are the specific rules mentioned on page 1? [Context: COM-02_CHUNK-0308]",
+        "category": "Legal Commentary",
+        "expected_document": "UNKNOWN",
+        "expected_document_id": "UNKNOWN",
+        "expected_citation": "Legal Commentary Citation",
+        "expected_section": "General Section",
+        "expected_page_number": 1,
+        "expected_answer": "The expected answer is directly supported by the text in chunk COM-02_CHUNK-0308 from UNKNOWN.",
+        "supporting_chunk_ids": [
+            "COM-02_CHUNK-0308"
+        ],
+        "difficulty": "Hard"
+    },
+    {
+        "query_id": "Q-LEG-019",
+        "user_query": "What does Legal Commentary Citation state regarding its core provisions? [Context: COM-01_CHUNK-0012_SUB-7]",
+        "category": "Legal Commentary",
+        "expected_document": "UNKNOWN",
+        "expected_document_id": "UNKNOWN",
+        "expected_citation": "Legal Commentary Citation",
+        "expected_section": "General Section",
+        "expected_page_number": 1,
+        "expected_answer": "The expected answer is directly supported by the text in chunk COM-01_CHUNK-0012_SUB-7 from UNKNOWN.",
+        "supporting_chunk_ids": [
+            "COM-01_CHUNK-0012_SUB-7"
+        ],
+        "difficulty": "Medium"
+    },
+    {
+        "query_id": "Q-LEG-020",
+        "user_query": "According to UNKNOWN, what are the specific rules mentioned on page 1? [Context: COM-02_CHUNK-0176]",
+        "category": "Legal Commentary",
+        "expected_document": "UNKNOWN",
+        "expected_document_id": "UNKNOWN",
+        "expected_citation": "Legal Commentary Citation",
+        "expected_section": "General Section",
+        "expected_page_number": 1,
+        "expected_answer": "The expected answer is directly supported by the text in chunk COM-02_CHUNK-0176 from UNKNOWN.",
+        "supporting_chunk_ids": [
+            "COM-02_CHUNK-0176"
+        ],
+        "difficulty": "Medium"
+    }
+]

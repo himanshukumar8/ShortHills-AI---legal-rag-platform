@@ -1,0 +1,10 @@
+{
+    "total_documents": 100,
+    "downloaded": 1,
+    "skipped": 99,
+    "failed": 0,
+    "duplicates": 0,
+    "average_file_size_bytes": 1292919.0,
+    "average_page_count": 18.0,
+    "execution_time_seconds": 4.84
+}

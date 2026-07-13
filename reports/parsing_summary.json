@@ -1,0 +1,9 @@
+{
+    "total_documents": 100,
+    "success": 99,
+    "warnings": 1,
+    "failed": 0,
+    "total_pages_processed": 22981,
+    "average_pages_per_doc": 229.81,
+    "execution_time_seconds": 14.08
+}

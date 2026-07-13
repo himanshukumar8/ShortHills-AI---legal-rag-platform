@@ -1,0 +1,5 @@
+{
+    "health_check": true,
+    "metrics_check": true,
+    "query_execution": true
+}

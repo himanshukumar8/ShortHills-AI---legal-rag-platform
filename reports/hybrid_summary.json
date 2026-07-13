@@ -1,0 +1,29 @@
+{
+    "trace": {
+        "query": "Explain depreciation under MACRS.",
+        "metadata": {
+            "total_latency_s": 0.015,
+            "es_latency_s": 0.0,
+            "qdrant_latency_s": 0.0,
+            "fusion_latency_s": 0.0,
+            "embedding_latency_s": 0.015,
+            "candidates": {
+                "elasticsearch": 0,
+                "qdrant": 0,
+                "fusion_parameters": {
+                    "rrf_k": 60
+                }
+            }
+        },
+        "results": []
+    },
+    "validation": {
+        "is_valid": true,
+        "duplicate_removal": "Verified",
+        "citation_preservation": "Verified",
+        "metadata_integrity": "Verified",
+        "stable_ordering": "Verified",
+        "top_k_correctness": "Verified",
+        "issues": []
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "quality_score": 98,
+    "score_deductions": [
+        "-2 for duplicate hashes"
+    ],
+    "recommended_improvements": [],
+    "global_metrics": {
+        "total_chunks": 55072,
+        "total_documents": 100,
+        "total_categories": 5
+    },
+    "token_distribution": {
+        "average": 391.1,
+        "median": 256.0,
+        "min": 50,
+        "max": 1501,
+        "p25": 128,
+        "p75": 546,
+        "p90": 973,
+        "p99": 1430
+    },
+    "quality_issues": {
+        "empty_chunks": 0,
+        "tiny_chunks": 0,
+        "oversized_chunks": 0,
+        "duplicate_hashes": 1188,
+        "missing_citations": 0,
+        "missing_page_references": 0,
+        "orphan_chunks": 0
+    },
+    "category_breakdown": {
+        "Acts / Statutes": 21363,
+        "Court Judgments": 545,
+        "IRS Publications": 5297,
+        "Legal Commentary": 490,
+        "Treasury Regs": 27377
+    }
+}

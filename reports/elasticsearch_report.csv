@@ -1,0 +1,101 @@
+document_id,category,chunks_indexed,status
+ACT-01,Acts / Statutes,325,SUCCESS
+ACT-02,Acts / Statutes,1517,SUCCESS
+ACT-03,Acts / Statutes,617,SUCCESS
+ACT-04,Acts / Statutes,1489,SUCCESS
+ACT-05,Acts / Statutes,95,SUCCESS
+ACT-06,Acts / Statutes,412,SUCCESS
+ACT-07,Acts / Statutes,10831,SUCCESS
+ACT-08,Acts / Statutes,486,SUCCESS
+ACT-09,Acts / Statutes,1538,SUCCESS
+ACT-10,Acts / Statutes,124,SUCCESS
+ACT-11,Acts / Statutes,282,SUCCESS
+ACT-12,Acts / Statutes,155,SUCCESS
+ACT-13,Acts / Statutes,536,SUCCESS
+ACT-14,Acts / Statutes,96,SUCCESS
+ACT-15,Acts / Statutes,191,SUCCESS
+ACT-16,Acts / Statutes,2072,SUCCESS
+ACT-17,Acts / Statutes,73,SUCCESS
+ACT-18,Acts / Statutes,73,SUCCESS
+ACT-19,Acts / Statutes,23,SUCCESS
+ACT-20,Acts / Statutes,428,SUCCESS
+JUDG-01,Court Judgments,14,SUCCESS
+JUDG-02,Court Judgments,7,SUCCESS
+JUDG-03,Court Judgments,68,SUCCESS
+JUDG-04,Court Judgments,13,SUCCESS
+JUDG-05,Court Judgments,29,SUCCESS
+JUDG-06,Court Judgments,9,SUCCESS
+JUDG-07,Court Judgments,9,SUCCESS
+JUDG-08,Court Judgments,42,SUCCESS
+JUDG-09,Court Judgments,75,SUCCESS
+JUDG-10,Court Judgments,1,SUCCESS
+JUDG-11,Court Judgments,1,SUCCESS
+JUDG-12,Court Judgments,7,SUCCESS
+JUDG-13,Court Judgments,6,SUCCESS
+JUDG-14,Court Judgments,6,SUCCESS
+JUDG-15,Court Judgments,35,SUCCESS
+JUDG-16,Court Judgments,6,SUCCESS
+JUDG-17,Court Judgments,6,SUCCESS
+JUDG-18,Court Judgments,36,SUCCESS
+JUDG-19,Court Judgments,6,SUCCESS
+JUDG-20,Court Judgments,45,SUCCESS
+JUDG-21,Court Judgments,9,SUCCESS
+JUDG-22,Court Judgments,40,SUCCESS
+JUDG-23,Court Judgments,19,SUCCESS
+JUDG-24,Court Judgments,3,SUCCESS
+JUDG-25,Court Judgments,53,SUCCESS
+IRS-01,IRS Publications,15,SUCCESS
+IRS-02,IRS Publications,212,SUCCESS
+IRS-03,IRS Publications,85,SUCCESS
+IRS-04,IRS Publications,96,SUCCESS
+IRS-05,IRS Publications,1040,SUCCESS
+IRS-06,IRS Publications,834,SUCCESS
+IRS-07,IRS Publications,211,SUCCESS
+IRS-08,IRS Publications,173,SUCCESS
+IRS-09,IRS Publications,193,SUCCESS
+IRS-10,IRS Publications,105,SUCCESS
+IRS-11,IRS Publications,290,SUCCESS
+IRS-12,IRS Publications,91,SUCCESS
+IRS-13,IRS Publications,296,SUCCESS
+IRS-14,IRS Publications,82,SUCCESS
+IRS-15,IRS Publications,78,SUCCESS
+IRS-16,IRS Publications,43,SUCCESS
+IRS-17,IRS Publications,210,SUCCESS
+IRS-18,IRS Publications,79,SUCCESS
+IRS-19,IRS Publications,85,SUCCESS
+IRS-20,IRS Publications,184,SUCCESS
+IRS-21,IRS Publications,331,SUCCESS
+IRS-22,IRS Publications,75,SUCCESS
+IRS-23,IRS Publications,55,SUCCESS
+IRS-24,IRS Publications,153,SUCCESS
+IRS-25,IRS Publications,281,SUCCESS
+COM-01,Legal Commentary,24,SUCCESS
+COM-02,Legal Commentary,367,SUCCESS
+COM-03,Legal Commentary,5,SUCCESS
+COM-04,Legal Commentary,5,SUCCESS
+COM-05,Legal Commentary,29,SUCCESS
+COM-06,Legal Commentary,7,SUCCESS
+COM-07,Legal Commentary,4,SUCCESS
+COM-08,Legal Commentary,4,SUCCESS
+COM-09,Legal Commentary,12,SUCCESS
+COM-10,Legal Commentary,2,SUCCESS
+COM-11,Legal Commentary,4,SUCCESS
+COM-12,Legal Commentary,16,SUCCESS
+COM-13,Legal Commentary,5,SUCCESS
+COM-14,Legal Commentary,5,SUCCESS
+COM-15,Legal Commentary,1,SUCCESS
+REG-01,Treasury Regs,1726,SUCCESS
+REG-02,Treasury Regs,1827,SUCCESS
+REG-03,Treasury Regs,1534,SUCCESS
+REG-04,Treasury Regs,2302,SUCCESS
+REG-05,Treasury Regs,2755,SUCCESS
+REG-06,Treasury Regs,2265,SUCCESS
+REG-07,Treasury Regs,112,SUCCESS
+REG-08,Treasury Regs,1669,SUCCESS
+REG-09,Treasury Regs,1819,SUCCESS
+REG-10,Treasury Regs,2390,SUCCESS
+REG-11,Treasury Regs,185,SUCCESS
+REG-12,Treasury Regs,1541,SUCCESS
+REG-13,Treasury Regs,2291,SUCCESS
+REG-14,Treasury Regs,2631,SUCCESS
+REG-15,Treasury Regs,2330,SUCCESS

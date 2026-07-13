@@ -1,0 +1,17 @@
+{
+    "total_queries": 100,
+    "category_distribution": {
+        "Acts / Statutes": 20,
+        "Court Judgments": 20,
+        "IRS Publications": 20,
+        "Treasury Regulations": 20,
+        "Legal Commentary": 20
+    },
+    "difficulty_distribution": {
+        "Easy": 32,
+        "Medium": 39,
+        "Hard": 29
+    },
+    "document_coverage_count": 1,
+    "citation_coverage_count": 5
+}

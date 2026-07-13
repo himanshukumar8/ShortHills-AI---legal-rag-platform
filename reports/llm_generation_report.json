@@ -1,0 +1,25 @@
+{
+    "provider": "mock",
+    "model": "gpt-4-turbo",
+    "latency_s": 0.05,
+    "tokens": {
+        "prompt": 396,
+        "completion": 97,
+        "total": 493
+    },
+    "cost_estimate_usd": 0.0001,
+    "parsing_status": "SUCCESS",
+    "answer_payload": {
+        "answer": "Under IRS Section 162, independent contractors may deduct ordinary and necessary business expenses.",
+        "citations": [
+            {
+                "document_title": "Internal Revenue Code",
+                "page_number": 1,
+                "section": "162(a)",
+                "citation": "26 U.S.C. 162"
+            }
+        ],
+        "confidence": "HIGH",
+        "limitations": "The provided context does not cover state-specific tax laws."
+    }
+}

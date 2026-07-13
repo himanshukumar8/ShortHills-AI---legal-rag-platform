@@ -1,0 +1,11 @@
+{
+    "overall_faithfulness_score": 100.0,
+    "overall_status": "PASS",
+    "total_claims": 1,
+    "supported": 1,
+    "partially_supported": 0,
+    "unsupported": 0,
+    "contradictions": 0,
+    "unsupported_claims": [],
+    "contradiction_claims": []
+}

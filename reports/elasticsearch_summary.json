@@ -1,0 +1,13 @@
+{
+    "documents_indexed": 100,
+    "total_chunks_indexed": 55072,
+    "failures": 0,
+    "indexing_speed_chunks_per_sec": 30904.6,
+    "average_document_size": 550.72,
+    "total_execution_time": 1.78,
+    "validation": {
+        "is_valid": true,
+        "indexed_count": 55072,
+        "issues": []
+    }
+}

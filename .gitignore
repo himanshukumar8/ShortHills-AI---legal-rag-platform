@@ -1,0 +1,59 @@
+# Environments
+.env
+.env.*
+!.env.example
+deployment/*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Development
+.vscode/
+.idea/
+
+# Data and generated artifacts
+data/raw/
+data/archives/
+data/processed/
+data/normalized/
+data/embeddings/
+data/optimized_chunks/
+
+# Reports
+reports/charts/
+
+# Logs
+logs/
+*.log
+
+# Python caches
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Databases
+*.db
+*.sqlite
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Jupyter
+.ipynb_checkpoints/
+
+data/chunks/

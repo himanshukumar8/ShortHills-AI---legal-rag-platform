@@ -1,0 +1,10 @@
+{
+    "documents_processed": 100,
+    "chunks_embedded": 51029,
+    "documents_failed": 0,
+    "documents_skipped": 5,
+    "average_latency_seconds": 5.71,
+    "total_execution_time_seconds": 140.83,
+    "embedding_dimensions": 1024,
+    "embedding_model": "BAAI/bge-large-en-v1.5"
+}

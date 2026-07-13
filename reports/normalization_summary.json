@@ -1,0 +1,9 @@
+{
+    "total_documents": 100,
+    "success": 99,
+    "warnings": 1,
+    "failed": 0,
+    "total_pages_processed": 22981,
+    "total_characters_removed": 1044778,
+    "execution_time_seconds": 3.53
+}

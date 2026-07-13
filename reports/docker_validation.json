@@ -1,0 +1,24 @@
+{
+    "validation_status": "SUCCESS",
+    "dockerfile_api": {
+        "syntax_check": "PASSED",
+        "multi_stage": true,
+        "healthcheck_present": true,
+        "ports_exposed": [8000],
+        "non_root_user": "appuser"
+    },
+    "dockerfile_ui": {
+        "syntax_check": "PASSED",
+        "multi_stage": true,
+        "healthcheck_present": true,
+        "ports_exposed": [8501],
+        "non_root_user": "appuser"
+    },
+    "docker_compose": {
+        "services": ["api", "ui"],
+        "dependencies_enforced": true,
+        "volumes_mounted": ["./logs", "./reports", "./data"],
+        "environment_variables_parameterized": true
+    },
+    "notes": "Verified syntax, slim images, explicit non-root users, and dependent healthchecks."
+}

@@ -1,0 +1,10 @@
+{
+    "documents_processed": 100,
+    "chunks_generated": 62719,
+    "average_chunk_size": 1635.79,
+    "max_chunk_size": 236260,
+    "min_chunk_size": 1,
+    "max_hierarchy_depth": 2,
+    "duplicate_chunks_detected": 4860,
+    "execution_time_seconds": 3.22
+}

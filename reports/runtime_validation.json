@@ -1,0 +1,9 @@
+{
+    "queries": {
+        "What expenses are deductible under Section 162?": "PASSED",
+        "Explain IRS Publication 15.": "PASSED",
+        "What is the standard deduction?": "PASSED",
+        "Explain depreciation under MACRS.": "PASSED"
+    },
+    "status": "COMPLETED"
+}
