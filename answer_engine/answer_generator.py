@@ -32,50 +32,64 @@ class AnswerGenerator:
             logger.warning(f"Unknown LLM provider: {name}. Falling back to Mock.")
             return MockProvider("mock", 0.0, 1000)
             
-    def generate_answer(self, prompt: GeneratedPrompt) -> dict:
-        """Executes the LLM request, parses the response, and generates execution reports."""
-        
-        logger.info(f"Calling LLM Provider: {self.config.llm_provider.upper()} ({self.provider.model_name})")
-        
-        try:
-            # 1. Execute LLM
-            llm_res = self.provider.generate(prompt.system_prompt, prompt.user_prompt)
-            logger.info(f"LLM returned response in {llm_res.latency_s:.2f}s")
-            
-            # 2. Parse JSON
-            parsed_json = parse_llm_response(llm_res)
-            
-            # 3. Validate Schema
-            validate_answer_schema(parsed_json)
-            logger.info("JSON Schema Validation PASSED.")
-            
-            # 4. Report metrics
-            report = {
-                "provider": llm_res.provider_name,
-                "model": self.provider.model_name,
-                "latency_s": round(llm_res.latency_s, 4),
-                "tokens": {
-                    "prompt": llm_res.prompt_tokens,
-                    "completion": llm_res.completion_tokens,
-                    "total": llm_res.prompt_tokens + llm_res.completion_tokens
-                },
-                "cost_estimate_usd": round(llm_res.cost_estimate, 6),
-                "parsing_status": "SUCCESS",
-                "answer_payload": parsed_json
-            }
-            
-            self._save_report(report)
-            return parsed_json
-            
-        except Exception as e:
-            logger.error(f"Answer Generation Failed: {e}")
-            error_report = {
-                "provider": self.config.llm_provider,
-                "parsing_status": "FAILED",
-                "error": str(e)
-            }
-            self._save_report(error_report)
-            raise
+def generate_answer(self, prompt: GeneratedPrompt) -> dict:
+    """Executes the LLM request, parses the response, and generates execution reports."""
+
+    logger.info(
+        f"Calling LLM Provider: {self.config.llm_provider.upper()} ({self.provider.model_name})"
+    )
+
+    try:
+        # 1. Execute LLM
+        llm_res = self.provider.generate(prompt.system_prompt, prompt.user_prompt)
+        logger.info(f"LLM returned response in {llm_res.latency_s:.2f}s")
+
+        # ===== DEBUG =====
+        logger.info("=" * 80)
+        logger.info("RAW GEMINI RESPONSE START")
+        logger.info(llm_res.raw_response)
+        logger.info("RAW GEMINI RESPONSE END")
+        logger.info("=" * 80)
+
+        logger.info(f"Prompt Tokens     : {llm_res.prompt_tokens}")
+        logger.info(f"Completion Tokens : {llm_res.completion_tokens}")
+        logger.info(f"Raw Length        : {len(llm_res.raw_response)} characters")
+        # =================
+
+        # 2. Parse JSON
+        parsed_json = parse_llm_response(llm_res)
+
+        # 3. Validate Schema
+        validate_answer_schema(parsed_json)
+        logger.info("JSON Schema Validation PASSED.")
+
+        # 4. Report metrics
+        report = {
+            "provider": llm_res.provider_name,
+            "model": self.provider.model_name,
+            "latency_s": round(llm_res.latency_s, 4),
+            "tokens": {
+                "prompt": llm_res.prompt_tokens,
+                "completion": llm_res.completion_tokens,
+                "total": llm_res.prompt_tokens + llm_res.completion_tokens
+            },
+            "cost_estimate_usd": round(llm_res.cost_estimate, 6),
+            "parsing_status": "SUCCESS",
+            "answer_payload": parsed_json
+        }
+
+        self._save_report(report)
+        return parsed_json
+
+    except Exception as e:
+        logger.error(f"Answer Generation Failed: {e}")
+        error_report = {
+            "provider": self.config.llm_provider,
+            "parsing_status": "FAILED",
+            "error": str(e)
+        }
+        self._save_report(error_report)
+        raise
             
     def _save_report(self, report_data: dict) -> None:
         self.config.report_dir.mkdir(parents=True, exist_ok=True)

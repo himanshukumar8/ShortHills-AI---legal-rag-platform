@@ -23,6 +23,8 @@ class PromptBuilder:
         
         for res in context.retrieved_chunks:
             chunk_text = res.text
+
+            logger.info(f"Chunk {included_chunks+1}: {len(chunk_text)} characters")
             
             block = (
                 f"### Excerpt {included_chunks + 1}\n"
