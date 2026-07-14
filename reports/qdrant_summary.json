@@ -4,8 +4,8 @@
     "vectors_indexed": 55072,
     "documents_failed": 0,
     "documents_skipped": 0,
-    "indexing_speed_vectors_per_sec": 1874.79,
-    "execution_time_seconds": 29.38,
+    "indexing_speed_vectors_per_sec": 1640.9,
+    "execution_time_seconds": 33.56,
     "validation": {
         "is_valid": true,
         "indexed_vectors": 55072,
