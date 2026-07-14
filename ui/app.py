@@ -1,16 +1,17 @@
 import streamlit as st
-from ui.config import UIConfig
-from ui.state import init_session_state
-from ui.theme import apply_theme
-from ui.api_client import api_client
 
-from ui.components.sidebar import render_sidebar
-from ui.components.query_box import render_query_box
-from ui.components.answer_panel import render_answer_panel
-from ui.components.citation_panel import render_citation_panel
-from ui.components.retrieval_panel import render_retrieval_panel
-from ui.components.metrics_panel import render_metrics_panel
-from ui.components.footer import render_footer
+from config import UIConfig
+from state import init_session_state
+from theme import apply_theme
+from api_client import api_client
+
+from components.sidebar import render_sidebar
+from components.query_box import render_query_box
+from components.answer_panel import render_answer_panel
+from components.citation_panel import render_citation_panel
+from components.retrieval_panel import render_retrieval_panel
+from components.metrics_panel import render_metrics_panel
+from components.footer import render_footer
 
 def main():
     st.set_page_config(
