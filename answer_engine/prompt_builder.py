@@ -22,10 +22,7 @@ class PromptBuilder:
         context_tokens = 0
         
         for res in context.retrieved_chunks:
-            # We mock the actual text content here since RetrievedResult doesn't carry full text 
-            # to save memory. In a real engine, we'd fetch the chunk text from the DB or payload.
-            # We represent the chunk text via a placeholder for the Prompt Builder test.
-            chunk_text = f"[Text content for chunk {res.chunk_id}]"
+            chunk_text = res.text
             
             block = (
                 f"### Excerpt {included_chunks + 1}\n"

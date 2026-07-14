@@ -28,7 +28,8 @@ def rank_and_truncate(fused_results: dict[str, dict], top_k: int) -> list[Retrie
                 bm25_rank=res["es_rank"],
                 vector_rank=res["qdrant_rank"],
                 rrf_score=res["score"],
-                retrieval_source=res["source"]
+                retrieval_source=res["source"],
+                text=payload.get("text", "")
             )
         )
         

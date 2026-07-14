@@ -28,6 +28,7 @@ def build_response(trace: RetrievalTrace) -> dict:
                 "document_title": r.document_title,
                 "category": r.category,
                 "citation": r.citation,
+                "text": r.text,
                 "pages": [r.page_start, r.page_end],
                 "retrieval_metadata": {
                     "source": r.retrieval_source,

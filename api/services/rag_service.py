@@ -34,7 +34,8 @@ class RagService:
                 bm25_rank=r["retrieval_metadata"]["bm25_rank"],
                 vector_rank=r["retrieval_metadata"]["vector_rank"],
                 rrf_score=r["retrieval_metadata"]["rrf_score"],
-                retrieval_source=r["retrieval_metadata"]["source"]
+                retrieval_source=r["retrieval_metadata"]["source"],
+                text=r.get("text", "")
             ))
             
         context = PromptContext(query=query, retrieved_chunks=chunks)

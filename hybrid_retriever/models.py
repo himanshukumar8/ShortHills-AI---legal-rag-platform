@@ -14,6 +14,7 @@ class RetrievedResult:
     vector_rank: int | None = None
     rrf_score: float = 0.0
     retrieval_source: str = "" # "elasticsearch", "qdrant", or "hybrid"
+    text: str = ""
 
 @dataclass
 class RetrievalTrace:
