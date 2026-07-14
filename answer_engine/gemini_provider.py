@@ -96,6 +96,13 @@ class GeminiProvider(BaseLLMProvider):
             f"(prompt={prompt_tokens}, completion={completion_tokens})"
         )
 
+        logger.info("=" * 80)
+        logger.info("RAW GEMINI RESPONSE START")
+        logger.info(raw_text)
+        logger.info("RAW GEMINI RESPONSE END")
+        logger.info("=" * 80)
+
+
         return LLMResponse(
             raw_response=raw_text,
             latency_s=latency,
