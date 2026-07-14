@@ -1,8 +1,8 @@
 import streamlit as st
-from ui.config import UIConfig
-from ui.api_client import api_client
-from ui.state import clear_session
-from ui.utils import format_latency
+from config import UIConfig
+from api_client import api_client
+from state import clear_session
+from utils import format_latency
 
 def render_sidebar():
     with st.sidebar:

@@ -1,5 +1,5 @@
 import streamlit as st
-from ui.utils import get_badge_class
+from utils import get_badge_class
 
 def render_citation_panel(citations: list):
     st.markdown("---")

@@ -1,6 +1,6 @@
 import streamlit as st
-from ui.config import UIConfig
-from ui.api_client import api_client
+from config import UIConfig
+from api_client import api_client
 
 def render_query_box():
     st.markdown("### Ask a Legal Question")

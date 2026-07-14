@@ -1,6 +1,6 @@
 import requests
 from typing import Dict, Any, Optional
-from ui.config import UIConfig
+from config import UIConfig
 import logging
 
 logger = logging.getLogger(__name__)
